@@ -9,4 +9,37 @@ _    _            _                      _ _
 
 
 
-table of contents
+TABLE OF CONTENTS
+
+LINUX AND COMMAND LINE
+WINDOWS
+PENETRATION TESTING TOOLS
+
+
+
+
+LINUX AND COMMAND LINE:
+ ls - lists files in current directory | ls
+ ip address - 
+ cd - changes file directory | cd /Downloads/file.txt
+ pwd - lists file path
+ find -
+ grep - 
+ nano - 
+ apt install - 
+ apt update - 
+ 
+PENETRATION TESTING TOOLS
+ gobuster - 
+ nmap - 
+ hydra - 
+ sqlmap - 
+ John the ripper - 
+ msfconsole - 
+ 
+ 
+ 
+ 
+
+
+

@@ -18,18 +18,7 @@ PENETRATION TESTING COMMANDS
 PENETRATION TESTING APPLICATIONS 
 
 
- 
-PENETRATION TESTING COMMANDS
- gobuster - 
- nmap - 
- hydra - 
- sqlmap - 
- John the ripper - 
- msfconsole - 
- 
-PENETRATION TESTING APPLICATIONS 
- Burp suite - 
- wireshark -
+
  
 
 

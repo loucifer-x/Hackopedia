@@ -8,7 +8,7 @@ MAIN ONES TO USE
 -T0 → -T5 – Timing templates (slow → insane fast)
 -p <ports> – Specify ports
 -f – Fragment packets
--sC
+-sC – Run default scripts
 
 -sI <zombie_host>
 -D <decoy1,decoy2,...>
@@ -58,4 +58,11 @@ Script Engine (NSE)
  hydra - 
  sqlmap - 
  John the ripper - 
+
  msfconsole - 
+
+   search *words* - search for relevent exploits 
+   set *input* - LHOST, LPORT, RHOST, RPORT, PAYLOAD, 
+   run - runs exploit
+   
+   

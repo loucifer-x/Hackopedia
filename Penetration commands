@@ -1,4 +1,17 @@
- nmap - 
+ nmap - is a tool used to discover, scan, and analyze networks and systems.
+ 
+MAIN ONES TO USE
+
+-sS – TCP SYN scan (stealth scan, most popular)
+-sA – ACK scan (firewall detection)
+-T0 → -T5 – Timing templates (slow → insane fast)
+-p <ports> – Specify ports
+-f – Fragment packets
+
+
+-sI <zombie_host>
+-D <decoy1,decoy2,...>
+
    Basic Scan Types
     -sS – TCP SYN scan (stealth scan, most popular)
     -sT – TCP connect scan (full connection)
@@ -26,6 +39,18 @@
     --min-rate <num> – Minimum packets/sec
     --max-rate <num> – Max packets/sec
 
+Script Engine (NSE)
+    -sC – Run default scripts
+    --script <name> – Run specific scripts
+    --script=vuln – Vulnerability scripts
+    --script=auth – Authentication scripts
+    --script=discovery – Network discovery
+
+ -Pn – Skip host discovery (treat as alive)
+    -f – Fragment packets
+    --spoof-mac <mac> – Spoof MAC address
+    --randomize-hosts – Randomize scan order
+    --source-port <port> – Set source port
 
 
  gobuster - 

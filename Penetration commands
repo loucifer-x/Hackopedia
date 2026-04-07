@@ -1,5 +1,34 @@
- gobuster - 
  nmap - 
+   Basic Scan Types
+    -sS – TCP SYN scan (stealth scan, most popular)
+    -sT – TCP connect scan (full connection)
+    -sU – UDP scan
+    -sA – ACK scan (firewall detection)
+    -sW – Window scan
+    -sM – Maimon scan
+    -sN – Null scan
+    -sF – FIN scan
+    -sX – Xmas scan
+    
+ Target and Port Selection - 65535 possible ports
+    -p <ports> – Specify ports 
+        -p 80,443
+        -p 80-443
+        -p- for all
+    --top-ports <n> – Scan most common ports
+    -iL <file> – Input list of targets
+    --exclude <host> – Exclude target(s)
+    --open – Show only open ports
+
+ Speed & Timing
+    -T0 → -T5 – Timing templates (slow → insane fast)
+    -T4 is the usual default for speed
+    --min-rate <num> – Minimum packets/sec
+    --max-rate <num> – Max packets/sec
+
+
+
+ gobuster - 
  hydra - 
  sqlmap - 
  John the ripper - 

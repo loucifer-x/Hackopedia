@@ -18,6 +18,25 @@ PENETRATION TESTING APPLICATIONS
 
 
 
+TERMS 
+ cia triad - 
+   confidelility -  
+        Checks that data is only accessible to authorized people. 
+        A magic door that only accepts people on a list. 
+        A company keeps employee records confidential so only HR can access them.
+
+   intergraty - 
+        Checks if the data is accurate and reliable. 
+        It looks like a flower, it is a flower. 
+        A database with integrity ensures that all entries are correct and nothing is missing or corrupted.
+
+   accessability - 
+       Shows the correct infomation to the correct users when needed.
+       like a libary you can just walk in at any time and select whatever book you'd like.
+       A bank’s website stays online 24/7 so customers can check their accounts anytime.
+
+
+
 LINUX AND COMMAND LINE:
  ls - lists files in current directory | ls
  ip address - 

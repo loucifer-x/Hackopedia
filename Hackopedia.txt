@@ -18,7 +18,14 @@ PENETRATION TESTING APPLICATIONS
 
 
 
+
 TERMS
+Authentication, Authorization, Confidelility, intergraty, Availability, Encryption
+
+Encryption - 
+ converts data into a secret code
+ creating your own langauge only your buddies can understand.
+ telegram encrpyts all messages so only the sender and reciver may see the text.
 
 Access controls - 
 
@@ -44,7 +51,7 @@ CIA triad -
         It looks like a flower, it is a flower. 
         A database with integrity ensures that all entries are correct and nothing is missing or corrupted.
 
-   accessability - 
+   Availability - 
        Shows the correct infomation to the correct users when needed.
        like a libary you can just walk in at any time and select whatever book you'd like.
        A bank’s website stays online 24/7 so customers can check their accounts anytime.
@@ -61,6 +68,8 @@ LINUX AND COMMAND LINE:
  nano - 
  apt install - 
  apt update - 
+ whoami - 
+ echo - 
  
 PENETRATION TESTING COMMANDS
  gobuster - 

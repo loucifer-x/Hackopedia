@@ -2,19 +2,20 @@
  
 MAIN ONES TO USE
 
+-v verbose
 -sS – TCP SYN scan (stealth scan, most popular)
 -sA – ACK scan (firewall detection)
 -T0 → -T5 – Timing templates (slow → insane fast)
 -p <ports> – Specify ports
 -f – Fragment packets
-
+-sC
 
 -sI <zombie_host>
 -D <decoy1,decoy2,...>
 
    Basic Scan Types
     -sS – TCP SYN scan (stealth scan, most popular)
-    -sT – TCP connect scan (full connection)
+    -sT – TCP connect scan (full connection) SLOW
     -sU – UDP scan
     -sA – ACK scan (firewall detection)
     -sW – Window scan

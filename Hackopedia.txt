@@ -11,9 +11,6 @@ _    _            _                      _ _
 
 TABLE OF CONTENTS
 
-
-
-
 TERMS
 LINUX COMMAND LINE
 WINDOWS
@@ -21,19 +18,6 @@ PENETRATION TESTING COMMANDS
 PENETRATION TESTING APPLICATIONS 
 
 
-
-LINUX COMMAND LINE
- ls - lists files in current directory | ls
- ip address - 
- cd - changes file directory | cd /Downloads/file.txt
- pwd - lists file path
- find -
- grep - 
- nano - 
- apt install - 
- apt update - 
- whoami - 
- echo - 
  
 PENETRATION TESTING COMMANDS
  gobuster - 

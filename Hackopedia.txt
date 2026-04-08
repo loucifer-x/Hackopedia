@@ -74,11 +74,10 @@ PENETRATION TESTING COMMANDS
  hydra - 
  sqlmap - 
  John the ripper
-
-
-
-https://www.revshells.com/- 
  msfconsole - 
 
+
+
+https://www.revshells.com/
 
 

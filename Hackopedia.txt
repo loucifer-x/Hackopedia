@@ -15,7 +15,8 @@ TERMS
 LINUX COMMAND LINE
 WINDOWS
 PENETRATION TESTING COMMANDS
-PENETRATION TESTING APPLICATIONS 
+PENETRATION TESTING APPLICATIONS
+LINKS
 
 TERMS
 Authentication, Authorization, Confidelility, intergraty, Availability, Encryption
@@ -72,7 +73,11 @@ PENETRATION TESTING COMMANDS
  nmap - 
  hydra - 
  sqlmap - 
- John the ripper - 
+ John the ripper
+
+
+
+https://www.revshells.com/- 
  msfconsole - 
 
 

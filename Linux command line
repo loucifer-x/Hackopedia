@@ -17,7 +17,7 @@ wget — Download files from web
 ------------------------------------------------------------------------------------------
 Search & Text Processing
 ------------------------------------------------------------------------------------------
-find — Searches for files and directories based on conditions
+find — Searches for files and directories | find [location "/ ] -type [f] -name[file name] [hides permission errors "2>/dev/null"]
 grep — Searches text inside files
 ------------------------------------------------------------------------------------------
 File Editing

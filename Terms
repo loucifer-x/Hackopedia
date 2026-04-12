@@ -1,6 +1,25 @@
 TERMS
 ------------------------------------------------------------------------------------------
-Authentication, Authorization, Confidelility, intergraty, Availability, Encryption
+Authentication, Authorization, Confidelility, intergraty, Availability, Encryption, HTTPS, DNS, IP ADDRESS, SYN, ACK,FIN,TCP,UDP
+
+
+------------------------------------------------------------------------------------------
+Networking
+------------------------------------------------------------------------------------------
+HTTPS - HyperText Transfer Protocol Secure | Encrpyted
+DNS – Domain Name System | google.com -> 8.8.8.8
+IP Address – Internet Protocol Address | 198.0.0.1.1
+TCP – Transmission Control Protocol | connection-based communication protocol used to send data over a network
+UDP – User Datagram Protocol | connectionless communication protocol used for fast data transfer
+
+SYN - Synchronize | First step in establishing a connection | Can we connect?
+ACK – Acknowledgement | A message confirming data was received successfully | Got it!
+FIN – Finish | Used to end a TCP connection | I’m done sending data
+
+Three way hand shake
+ SYN → Client sends request
+ SYN + ACK → Server replies
+ ACK → Client confirms connection
 
 
 Encryption 

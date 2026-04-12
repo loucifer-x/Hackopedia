@@ -1,7 +1,7 @@
 ------------------------------------------------------------------------------------------
 File & Directory Management
 ------------------------------------------------------------------------------------------
-ls — Lists files and directories in the current directory
+ls — Lists files and directories in the current directory [shows hidden files "la"]
 cd — Changes the current directory | cd /Downloads/ | cd .. to go back
 pwd — Prints the full path of the current directory
 cat — Show full file content

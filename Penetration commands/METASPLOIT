@@ -1,7 +1,13 @@
 METASPLOIT - Metasploit is a penetration testing framework used to find, test, and exploit security vulnerabilities in systems.
 
+NOTES
+-----------------------------------------------------
+compared system info against CVE LIST. "searc cve-2015-3065
+some exploits need a "session" active to run a exploit, such as an SSH priveleged esculation exploit.
 
 
+
+-----------------------------------------------------
 search - searches for exploits
 info - Shows details about a module
 back - Go back from a module

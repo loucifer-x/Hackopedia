@@ -1,4 +1,6 @@
-Linux Priviledge Escelation.
+------------------------------------------------------------------------------------------
+Linux Priviledge Escelation
+------------------------------------------------------------------------------------------
 
 /etc/crontab
   If it's possbile, you can add a reverse shell to gain root access

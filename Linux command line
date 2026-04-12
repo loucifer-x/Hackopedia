@@ -41,7 +41,10 @@ df -h — Show disk usage
 free -h — Show memory usage
 lscpu - CPU infomation
 lsblk — List Disk Drives
+chmod - runs executable
 
+
+/etc/crontab
 /etc/shadow - password hashes
 /etc/passwd - user account infomation 
 ------------------------------------------------------------------------------------------

@@ -13,71 +13,16 @@ TABLE OF CONTENTS
 
 TERMS
 LINUX COMMAND LINE
-WINDOWS
-PENETRATION TESTING COMMANDS
-PENETRATION TESTING APPLICATIONS
-LINKS
-
-TERMS
-Authentication, Authorization, Confidelility, intergraty, Availability, Encryption
-
-Encryption - 
- converts data into a secret code
- creating your own langauge only your buddies can understand.
- telegram encrpyts all messages so only the sender and reciver may see the text.
-
-Access controls - 
-
-   Authentication - 
-        verifies that someone or something is who or what it claims to be.
-        club bouncer checking id's on a private list.
-        A phone using face idea to unlock a phone.
-
-   Authorization - 
-       determines what an authenticated person is allowed to do or access.
-       A hallway filled up with magic doors, which close if your not cool enough.
-       A staff member looking at a work schedule but unable to edit.
-
-CIA triad - 
-
-   confidelility -  
-        Checks that data is only accessible to authorized people. 
-        A magic door that only accepts people on a list. 
-        A company keeps employee records confidential so only HR can access them.
-
-   intergraty - 
-        Checks if the data is accurate and reliable. 
-        It looks like a flower, it is a flower. 
-        A database with integrity ensures that all entries are correct and nothing is missing or corrupted.
-
-   Availability - 
-       Shows the correct infomation to the correct users when needed.
-       like a libary you can just walk in at any time and select whatever book you'd like.
-       A bank’s website stays online 24/7 so customers can check their accounts anytime.
-
-LINUX COMMAND LINE
- ls - lists files in current directory | ls
- ip address - 
- cd - changes file directory | cd /Downloads/file.txt
- pwd - lists file path
- find -
- grep - 
- nano - 
- apt install - 
- apt update - 
- whoami - 
- echo - 
-
-PENETRATION TESTING COMMANDS
- gobuster - 
- nmap - 
- hydra - 
- sqlmap - 
- John the ripper
- msfconsole - 
+PENETRATION COMMANDS
+ -NMAP
+ -metasploit
 
 
+LINKS - 
 
-https://www.revshells.com/
+https://www.revshells.com/ - tool that generates reverse shell payloads
 
+https://gchq.github.io/CyberChef/ - tool used to decode, analyze, and transform data.
 
+https://hashes.com/en/decrypt/hash - find known plaintext values for given hashes using a prebuilt database.
+https://crackstation.net/ - tool that tries to recover plaintext passwords from hashes using large precomputed databases.

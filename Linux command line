@@ -25,6 +25,9 @@ apt update — Updates the package list
 apt install — Installs a package
 
 System Information
+uname -a - full system 
+cat /etc/os-release - OS version
+
 ip address — Displays network interfaces and IP addresses
 whoami — Prints the currently logged-in user
 top — Show running processes

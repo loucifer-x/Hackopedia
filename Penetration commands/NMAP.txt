@@ -1,7 +1,6 @@
- nmap - is a tool used to discover, scan, and analyze networks and systems.
+nmap - is a tool used to discover, scan, and analyze networks and systems.
  
 MAIN ONES TO USE
-
 -v verbose
 -sS – TCP SYN scan (stealth scan, most popular)
 -sA – ACK scan (firewall detection)
@@ -53,11 +52,6 @@ Script Engine (NSE)
     --randomize-hosts – Randomize scan order
     --source-port <port> – Set source port
 
-
- gobuster - 
- hydra - 
- sqlmap - 
- John the ripper - 
 
  msfconsole - 
 

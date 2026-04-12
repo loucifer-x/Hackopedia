@@ -1,0 +1,31 @@
+METASPLOIT - Metasploit is a penetration testing framework used to find, test, and exploit security vulnerabilities in systems.
+
+
+
+search - searches for exploits
+info - Shows details about a module
+back - Go back from a module
+
+use - selects exploit 
+show targets - Shows supported target systems for the exploit
+show options - shows options for the exploit
+show payloads - Shows available payloads for the selected exploit
+
+exploit/run - runs the exploit to take advantage of the vulnerability and attempt to gain access to the target system
+set payload - selects the code that will run if the exploit succeeds and before/when access is gained
+
+set SESSION - selects the session
+sessions - lists sessions
+-k - kills session
+-u tries to upgrade session
+-i use session
+
+
+setg - set as a global varible 
+unset - unsets the varible 
+
+set LHOST — Your local IP address 
+set LPORT — Your listening port
+set RHOST — Target IP address
+set RPORT — Target port
+

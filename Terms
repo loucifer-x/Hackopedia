@@ -1,13 +1,16 @@
 TERMS
+------------------------------------------------------------------------------------------
 Authentication, Authorization, Confidelility, intergraty, Availability, Encryption
 
-Encryption - 
+
+Encryption 
  converts data into a secret code
  creating your own langauge only your buddies can understand.
  telegram encrpyts all messages so only the sender and reciver may see the text.
 
+------------------------------------------------------------------------------------------
 Access controls - 
-
+------------------------------------------------------------------------------------------
    Authentication - 
         verifies that someone or something is who or what it claims to be.
         club bouncer checking id's on a private list.
@@ -18,8 +21,9 @@ Access controls -
        A hallway filled up with magic doors, which close if your not cool enough.
        A staff member looking at a work schedule but unable to edit.
 
+------------------------------------------------------------------------------------------
 CIA triad - 
-
+------------------------------------------------------------------------------------------
    confidelility -  
         Checks that data is only accessible to authorized people. 
         A magic door that only accepts people on a list. 

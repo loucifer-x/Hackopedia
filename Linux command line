@@ -10,7 +10,7 @@ tail — Show last lines of a file
 
 Networking 
 ping — Test internet connection
-curl — Make web requests 
+curl — Make web requests | -I[Header] -O[Download]
 wget — Download files from web
 
 Search & Text Processing

@@ -42,7 +42,8 @@ free -h — Show memory usage
 lscpu - CPU infomation
 lsblk — List Disk Drives
 
-
+/etc/shadow - password hashes
+/etc/passwd - user account infomation 
 ------------------------------------------------------------------------------------------
 Output & Display
 ------------------------------------------------------------------------------------------

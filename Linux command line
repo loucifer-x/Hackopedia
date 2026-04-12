@@ -27,9 +27,9 @@ apt install — Installs a package
 System Information
 uname -a - full system 
 cat /etc/os-release - OS version
+whoami — Prints the currently logged-in user
 
 ip address — Displays network interfaces and IP addresses
-whoami — Prints the currently logged-in user
 top — Show running processes
 ps — Show process list
 df -h — Show disk usage

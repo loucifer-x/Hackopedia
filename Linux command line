@@ -1,11 +1,39 @@
- ls - lists files in current directory | ls
- ip address - 
- cd - changes file directory | cd /Downloads/file.txt
- pwd - lists file path
- find -
- grep - 
- nano - 
- apt install - 
- apt update - 
- whoami - 
- echo - 
+
+File & Directory Management
+ls — Lists files and directories in the current directory
+cd — Changes the current directory | cd /Downloads/ | cd .. to go back
+pwd — Prints the full path of the current directory
+cat — Show full file content
+less — View file page by page
+head — Show first lines of a file
+tail — Show last lines of a file
+
+Networking 
+ping — Test internet connection
+curl — Make web requests 
+wget — Download files from web
+
+Search & Text Processing
+find — Searches for files and directories based on conditions
+grep — Searches text inside files
+
+File Editing
+nano — Opens a simple terminal-based text editor
+
+Package Management (Debian/Ubuntu)
+apt update — Updates the package list
+apt install — Installs a package
+
+System Information
+ip address — Displays network interfaces and IP addresses
+whoami — Prints the currently logged-in user
+top — Show running processes
+ps — Show process list
+df -h — Show disk usage
+free -h — Show memory usage
+
+lscpu - CPU infomation
+lsblk — List Disk Drives
+
+Output & Display
+echo — Prints text or variables to the terminal

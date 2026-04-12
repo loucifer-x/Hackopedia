@@ -44,7 +44,7 @@ lsblk — List Disk Drives
 chmod - runs executable
 
 
-/etc/crontab
+/etc/crontab - runs executables on a timer.
 /etc/shadow - password hashes
 /etc/passwd - user account infomation 
 ------------------------------------------------------------------------------------------

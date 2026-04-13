@@ -1,0 +1,13 @@
+Quantisation - 
+Reduces numerical precision of weights (e.g., 32-bit to 8-bit floats) to cut memory and compute requirements 
+Can degrade safety-aligned behaviour; backdoor defences tested on full-precision models may fail to detect threats in quantised versions
+
+Pruning - 
+Removes parameters that contribute little to predictions, shrinking model size 
+Changes model behaviour post-training; rarely documented in detail
+
+
+
+Federated Learning - 
+machine learning approach that allows multiple devices or organizations to collaboratively train a shared model without exchanging their raw data. 
+Instead of sending data to a central server, the data stays where it is, enhancing privacy, security, and efficiency.

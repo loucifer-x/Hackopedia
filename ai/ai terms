@@ -11,3 +11,15 @@ Changes model behaviour post-training; rarely documented in detail
 Federated Learning - 
 machine learning approach that allows multiple devices or organizations to collaboratively train a shared model without exchanging their raw data. 
 Instead of sending data to a central server, the data stays where it is, enhancing privacy, security, and efficiency.
+
+
+
+Zero-shot Chain-of-Thought reasoning - 
+
+    Zero-shot: Simple, well-defined tasks where instructions are clear
+    One-shot: Format clarification or style guidance needed
+    Few-shot: Complex patterns, domain-specific outputs, multiple edge cases
+    Chain-of-Thought: Multi-step reasoning, security analysis requiring justification, debugging complex logic
+
+
+"Let's think step by step" - prompting step-by-step reasoning helps ensure accuracy in large calculations by making the process more deliberate and transparent

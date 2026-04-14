@@ -34,7 +34,8 @@ This takes advantage of how **querySelector** is used in the sites javascript.
   document.querySelector("#output").innerHTML = "Hello, " + name;
 </script>
 ```
-https://example.com/?name=<script>alert('DOM XSS')</script>
+**Exploit**
+example.com/?name=<script>alert('DOM XSS')</script>
 
 
 ## Race conditions

@@ -38,7 +38,7 @@ examples:
 
 ' OR '1'='1
 
-Possible Vulnerable Inputs
+**Possible Vulnerable Inputs**
 * Username
 * password
 * cookies

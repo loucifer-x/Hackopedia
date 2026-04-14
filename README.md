@@ -8,16 +8,22 @@ This repository serves as both a learning diary and a reference guide, documenti
 
 ## Topics covered so far
 
+
+*Web hacking
+  * [X]Local file intrusion
+  * [X]SLQ injection
+  * [X]IDOR
+  * [X]Authentic bypass
+  * [X]Common injection
 * Penetration commands 
-  * nmap 
-  * metasploit
+  * []metasploit
 * Terminology
-  * Networking
-  * Encryption
-  * CIA Triad
-  * Access Controls
-* Linux command line
-* Useful links
+  * []Networking
+  * []Encryption
+  * []CIA Triad
+  * []Access Controls
+* []Linux command line
+* []Useful links
 
 
 

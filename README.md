@@ -14,6 +14,7 @@ This repository serves as both a learning diary and a reference guide, documenti
 * __Linux command line__
 * __Useful links__
 * __Web hacking__
+  * [1] - Race Conditions 
   * [1] - Local file inclusion
   * [1] - SLQ injection
 * __Penetration commands__ 

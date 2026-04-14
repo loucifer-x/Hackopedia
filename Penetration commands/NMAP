@@ -53,11 +53,6 @@ Script Engine (NSE)
     -f – Fragment packets
     --spoof-mac <mac> – Spoof MAC address
     --randomize-hosts – Randomize scan order
-    --source-port <port> – Set source port
-
-
- msfconsole - 
-
-   search *words* - search for relevent exploits 
+    --source-port <port> – Set source port 
    set *input* - LHOST, LPORT, RHOST, RPORT, PAYLOAD, 
    run - runs exploit

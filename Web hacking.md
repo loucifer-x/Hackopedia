@@ -3,7 +3,7 @@
 
 web application vulnerability that allows an attacker to access files stored on the server
 
-* example - "http://example.com/index.php?page=etc/password"
+* example - http://example.com/index.php?page=etc/password
 
 * You can move up directories with ../../../../
 * So our example would chnage too - example - http://example.com/index.php?page=./../../../etc/password

@@ -41,11 +41,11 @@ This exploit occurs when user inputs are not properly validated or sanitized.
 ' OR '1'='1
 
 * **Possible Vulnerable Inputs**
- * Username
- * password
- * cookies
- * search bar
- * form fields
+  * Username
+  * password
+  * cookies
+  * search bar
+  * form fields
 
 
 Side Note:

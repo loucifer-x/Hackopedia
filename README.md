@@ -15,12 +15,12 @@ This repository serves as both a learning diary and a reference guide, documenti
   * [0]IDOR
   * [0]Authentic bypass
   * [0]Common injection
-__Penetration commands__ 
+* __Penetration commands__ 
   * [1]metasploit
   * [1]NMAP
-__Terminology__
-__Linux command line__
-__Useful links__
+* __Terminology__
+* __Linux command line__
+* __Useful links__
 
 
 

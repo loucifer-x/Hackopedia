@@ -1,1 +1,7 @@
+SQLMAP - testing tool used to detect and exploit SQL injection vulnerabilities in web applications
 
+
+sqlmap -u "http://example.com/page?id=1" -dbs
+
+
+-dbs | enumerate all databases available on a vulnerable server

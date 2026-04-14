@@ -25,18 +25,17 @@ Encryption
  * creating your own langauge only your buddies can understand.
  * telegram encrpyts all messages so only the sender and reciver may see the text.
 
-------------------------------------------------------------------------------------------
-Access controls - 
-------------------------------------------------------------------------------------------
-   Authentication - 
-        verifies that someone or something is who or what it claims to be.
-        club bouncer checking id's on a private list.
-        A phone using face idea to unlock a phone.
+Access controls
+-
+  * Authentication - 
+       * verifies that someone or something is who or what it claims to be.
+       * club bouncer checking id's on a private list.
+       * A phone using face idea to unlock a phone.
 
-   Authorization - 
-       determines what an authenticated person is allowed to do or access.
-       A hallway filled up with magic doors, which close if your not cool enough.
-       A staff member looking at a work schedule but unable to edit.
+  * Authorization - 
+      * determines what an authenticated person is allowed to do or access.
+      * A hallway filled up with magic doors, which close if your not cool enough.
+      * A staff member looking at a work schedule but unable to edit.
 
 ------------------------------------------------------------------------------------------
 CIA triad - 

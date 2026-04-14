@@ -3,12 +3,20 @@
   - curl -H "Cookie: logged_in=true; admin=true"example.com/cookie-test
   - Some websites might encode cookies so encode *Cookie: logged_in=true; admin=true"*
 
-**Insecure Direct Object Reference**
+**Insecure Direct Object Reference(IDOR)**
 
 _IDOR is a vulnerability that occurs when internal object are exposed without proper authorization checks._
 
     - INSPECT ELEMENT -> NETWORK -> customer_id.json -> id:10 USERNAME: name PASSWORD: password
     - example.com/profile?user_id=1 -> exploits the ID number -> example.com/profile?user_id=666
+
+# Cros-site scripting (XXS)
+*a vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users. In short,
+XSS tricks a website into running harmful code in a user's browser.*
+
+Example:
+
+
 
 # Race conditions
 Requires Burp suite - reapter or intruder(pitchfork attack)

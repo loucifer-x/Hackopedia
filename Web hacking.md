@@ -22,19 +22,20 @@ STORED -
     - Effects every user
 
 DOM BASED -
-This takes advantage of how querySelector is used in the sites javascript.
+This takes advantage of how **querySelector** is used in the sites javascript.
 
+
+**VULNERABLE CODE**
 ```
 <div id="output"></div>
-
 <script>
   const params = new URLSearchParams(window.location.search);
   const name = params.get("name");
-
   // Vulnerable: Inserts untrusted input into the DOM
   document.querySelector("#output").innerHTML = "Hello, " + name;
 </script>
 ```
+
 
 Example:
   - https://example.com/search?q=<script>alert('XSS')</script>

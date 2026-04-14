@@ -22,9 +22,11 @@ STORED -
     - Effects every user
 
 ### DOM BASED
-This takes advantage of how **querySelector** is used in the sites javascript.
+Possible exploits - innerHTML, querySelector, document.write(), insertAdjacentHTML(), eval()
+
 
 **VULNERABLE CODE**
+*This takes advantage of how **querySelector** is used in the sites javascript.*
 ```
 <div id="output"></div>
 <script>

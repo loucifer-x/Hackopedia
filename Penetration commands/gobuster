@@ -16,12 +16,12 @@ Common options
   -t 50  | sets the number of concurrent threads
 
 Modes options
-  dir – Directory and file enumeration
-  dns – Subdomain discovery
-  vhost – Virtual host discovery
-  fuzz – URL and parameter fuzzing
-  s3 – Amazon S3 bucket enumeration
-  gcs – Google Cloud Storage bucket enumeration
+  dir – Directory and file enumeration          | google.com/FOUND
+  dns – Subdomain discovery                     | FOUND.google.com
+  vhost – Virtual host discovery                | FOUND.google.com
+  fuzz – URL and parameter fuzzing              | google.com/page?file=FOUND
+  s3 – Amazon S3 bucket enumeration             | FOUND.s3.amazonaws.com
+  gcs – Google Cloud Storage bucket enumeration | storage.googleapis.com/FOUND
 
 Examples
   gobuster dir -u http://example.com -w wordlist.txt

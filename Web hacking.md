@@ -4,7 +4,7 @@
 
 ## Common
 **Session hijacking**
-Set Cookie: session_id = Auth_key | If the admin **auth_key** is on the front end, it's possible to login as admin without credidentals
+Set Cookie: session_id = Auth_key | If the admin **auth_key** is on the front end, it's possible to login as admin without credentials
 
 
 
@@ -84,18 +84,18 @@ DOM-Based XSS exploits insecure client-side JavaScript that inserts untrusted in
 
 
 ## Race conditions
-Burp suite - **reapter or intruder**(pitchfork attack)
+Burp suite - **repeater or intruder**(pitchfork attack)
 
 Sending multiple requests simultaneously may trigger race conditions, leading to unintended behavior.
 
 **Such as**
- - Sending multipul withdraw checks before the system can check if theres avaialbae balance
+ - Sending multiple withdraw checks before the system can check if theres avaialbae balance
  - Register the same email with diffrent accounts(abusing free trials)
- - Multipul uses of a gift card
+ - Multiple uses of a gift card
 
 ## Local file inclusion
 
-FLI is a web application vulnerability that allows an attacker to access files stored on the server 
+LFI is a web application vulnerability that allows an attacker to access files stored on the server 
 
 __example.com/index.php?page=<ins>etc/password</ins>__
 

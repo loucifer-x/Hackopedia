@@ -13,10 +13,10 @@ Topics covered so far
   * metasploit
 * Linux command line
 * Termaonlgly
-  *Networking
-  *Encryption
-  *CIA Triad
-  *Access Controls
+  * Networking
+  * Encryption
+  * CIA Triad
+  * Access Controls
 
 
 

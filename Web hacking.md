@@ -1,7 +1,12 @@
 # Web hacking
+**Notes**
 
 
 ## Common
+**session hijacking
+  -Set Cookie: session_id = Auth_key | If the admin auth_key is on the front end, it's possible to login as admin without credidentals
+
+
 **Cookie tampering**
   - curl -H "Cookie: logged_in=true; admin=true"example.com/cookie-test
   - Some websites might encode cookies so encode *Cookie: logged_in=true; admin=true"*

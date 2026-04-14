@@ -21,7 +21,7 @@ STORED -
     - Comment sections, forums, user profiles, and product reviews
     - Effects every user
 
-DOM BASED -
+### DOM BASED -
 This takes advantage of how **querySelector** is used in the sites javascript.
 
 

@@ -6,7 +6,8 @@ web application vulnerability that allows an attacker to access files stored on 
 example - __example.com/index.php?page=etc/password__
 
 You can move up directories with ../../../../
-So our example would change too - example - example.com/index.php?page=./../../../etc/password
+So our example would change too - 
+*  example.com/index.php?page=./../../../etc/password
 
 .. = parent directory
 / = directory separator

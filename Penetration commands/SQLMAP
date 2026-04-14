@@ -3,7 +3,10 @@ SQLMAP - testing tool used to detect and exploit SQL injection vulnerabilities i
 
 sqlmap -u "http://example.com/page?id=1" 
 
---method=POST,GET
+
+--method=POST,GET 
+
+
 --data="email=test@gmail.com&password=password"
 
 

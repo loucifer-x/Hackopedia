@@ -17,6 +17,7 @@ This repository serves as both a learning diary and a reference guide, documenti
   * [1] - Race Conditions 
   * [1] - Local file inclusion
   * [1] - SLQ injection
+  * [1] - Authentic bypass
 * __Penetration commands__ 
   * [1] - Metasploit
   * [1] - NMAP

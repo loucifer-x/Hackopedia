@@ -65,8 +65,7 @@ echo file_get_contents("comments.txt");
 `<script>alert('Stored XSS')</script>`
 
 ### DOM BASED
-DOM-Based XSS exploits insecure client-side JavaScript that inserts untrusted input into the DOM through unsafe sinks such as **innerHTML(), document.write(), insertAdjacentHTML(), eval()**. While **querySelector()** itself is safe, improper use with untrusted data can contribute to vulnerabilities
-
+DOM-Based XSS exploits insecure client-side JavaScript that inserts untrusted input into the DOM through unsafe sinks such as **innerHTML(), document.write(), insertAdjacentHTML(), eval()**. While **querySelector()** itself is safe, it can become part of a vulnerability when used alongside these unsafe functions.
 
 **VULNERABLE CODE**
 *This takes advantage of how **querySelector** is used in the sites javascript.*

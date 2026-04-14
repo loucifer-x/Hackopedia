@@ -11,15 +11,12 @@ This repository serves as both a learning diary and a reference guide, documenti
 * Pen testing tools
   * nmap 
   * metasploit
-* Linux command line
 * Terminology
   * Networking
   * Encryption
   * CIA Triad
   * Access Controls
-
-
-
+* Linux command line
 
 
 

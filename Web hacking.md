@@ -5,9 +5,8 @@ FLI is a web application vulnerability that allows an attacker to access files s
 
 __example.com/index.php?page=<ins>etc/password</ins>__
 
-You can move up directories with ../../../../
 
-So our example would change too __example.com/index.php?page=./../../../etc/password__
+You can move up directories with ../../../../ -> __example.com/index.php?page=./../../../etc/password__
 
 
 .. = parent directory

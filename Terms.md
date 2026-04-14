@@ -12,15 +12,15 @@ Networking
 * **TCP** – Transmission Control Protocol | connection-based communication protocol used to send data over a network
 * **UDP** – User Datagram Protocol | connectionless communication protocol used for fast data transfer
 
-* **SYN** - Synchronize | First step in establishing a connection | Can we connect?
-* **ACK** – Acknowledgement | A message confirming data was received successfully | Got it!
-* **FIN** – Finish | Used to end a TCP connection | I’m done sending data
 
 **Three way hand shake**
- * SYN -> Client sends request
- * SYN + ACK → Server replies
- * ACK -> Client confirms connection
-
+ 
+ * **SYN** - Synchronize | First step in establishing a connection | Can we connect?
+ * **ACK** – Acknowledgement | A message confirming data was received successfully | Got it!
+ * **FIN** – Finish | Used to end a TCP connection | I’m done sending data
+ *  SYN -> Client sends request
+ *  SYN + ACK → Server replies
+ *  ACK -> Client confirms connection
 
 ------------------------------------------------------------------------------------------
 Encryption 

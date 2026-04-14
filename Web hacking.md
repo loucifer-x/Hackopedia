@@ -2,6 +2,7 @@
 Requires Burp suite - reapter or intruder(pitchfork attack)
 
 Sending multiple requests simultaneously may trigger race conditions, leading to unintended behavior.
+
 **Such as**
  - Sending multipul withdraw checks before the system can check if theres avaialbae balance
  - Register the same email with diffrent accounts(abusing free trials)

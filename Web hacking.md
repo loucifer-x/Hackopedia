@@ -34,7 +34,7 @@ echo file_get_contents("comments.txt");
 ?>
 ```
 **Exploit**
-<script>alert('Stored XSS')</script>
+`<script>alert('Stored XSS')</script>`
 
 ### DOM BASED
 DOM-Based XSS exploits vulnerabilities in a website’s client-side JavaScript that improperly manipulates the DOM.
@@ -53,7 +53,7 @@ Possible exploits - innerHTML, querySelector, document.write(), insertAdjacentHT
 </script>
 ```
 **Exploit**
-example.com/?name=<script>alert('DOM XSS')</script>
+`example.com/?name=<script>alert('DOM XSS')</script>`
 
 
 ## Race conditions

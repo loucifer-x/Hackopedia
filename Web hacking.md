@@ -1,12 +1,19 @@
+# Race conditions
+Requires Burp suite - reapter or intruder(pitchfork attack)
+
+Sending multiple requests simultaneously may trigger race conditions, leading to unintended behavior.
+**Such as**
+ - Sending multipul withdraw checks before the system can check if theres avaialbae balance
+ - Register the same email with diffrent accounts(abusing free trials)
+ - Multipul uses of a gift card
+
 # Local file inclusion
 
 FLI is a web application vulnerability that allows an attacker to access files stored on the server 
 
 __example.com/index.php?page=<ins>etc/password</ins>__
 
-
 You can move up directories with ../../../../ -> __example.com/index.php?page=./../../../etc/password__
-
 
 .. = parent directory
 

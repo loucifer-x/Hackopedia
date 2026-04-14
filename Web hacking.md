@@ -1,3 +1,9 @@
+# Common
+Cookie tampering 
+  - curl -H "Cookie: logged_in=true; admin=true" http://MACHINE_IP/cookie-test
+  - Some websites might encode cookies.
+
+
 # Race conditions
 Requires Burp suite - reapter or intruder(pitchfork attack)
 

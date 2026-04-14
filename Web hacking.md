@@ -17,9 +17,9 @@ _IDOR is a vulnerability that occurs when internal object are exposed without pr
 *Cross-Site Scripting is a vulnerability that allows attackers to inject malicious scripts into web pages when user input is not properly sanitized or encoded.*
 
  ### Stored XSS (Persistent XSS)
-    - User input is stored on the server
-    - Comment sections, forums, user profiles, and product reviews
-    - Effects every user
+- User input is stored on the server
+- Comment sections, forums, user profiles, and product reviews
+- Effects every user
 
 **VULNERABLE CODE**
 ```
@@ -38,7 +38,7 @@ echo file_get_contents("comments.txt");
 
 ### DOM BASED
 DOM-Based XSS exploits vulnerabilities in a website’s client-side JavaScript that improperly manipulates the DOM.
-Possible exploits - innerHTML, querySelector, document.write(), insertAdjacentHTML(), eval()
+Possible exploits - **innerHTML, querySelector, document.write(), insertAdjacentHTML(), eval()**
 
 
 **VULNERABLE CODE**

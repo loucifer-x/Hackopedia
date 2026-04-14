@@ -7,8 +7,8 @@ Hackopedia is my own personal cybersecurity knowledge mapped out in a neat docum
 This repository serves as both a learning diary and a reference guide, documenting my personal growth and understanding in the field.
 
 ## Topics covered so far
--1 = Finished 
--0 = Work in progress
+- 1 = Finished 
+- 0 = Work in progress
 
 
 * __Terminology__

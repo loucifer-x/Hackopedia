@@ -13,11 +13,31 @@ _IDOR is a vulnerability that occurs when internal object are exposed without pr
     - INSPECT ELEMENT -> NETWORK -> customer_id.json -> id:10 USERNAME: name PASSWORD: password
     - example.com/profile?user_id=1 -> exploits the ID number -> example.com/profile?user_id=666
 
-## Cros-site scripting (XXS)
-*a vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users. In short,
-XSS tricks a website into running harmful code in a user's browser.*
+#Cros-site scripting (XSS)
+*Cross-Site Scripting is a vulnerability that allows attackers to inject malicious scripts into web pages when user input is not properly sanitized or encoded.*
 
+STORED - 
+    - User input is stored on the server
+    - Comment sections, forums, user profiles, and product reviews
+    - Effects every user
+
+DOM BASED -
+This takes advantage of how querySelector is used in the sites javascript.
+'
+<div id="output"></div>
+
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const name = params.get("name");
+
+  // Vulnerable: Inserts untrusted input into the DOM
+  document.querySelector("#output").innerHTML = "Hello, " + name;
+</script>
+'
+    - User input is stored on the client side javascript
+  
 Example:
+  - https://example.com/search?q=<script>alert('XSS')</script>
 
 
 

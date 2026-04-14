@@ -3,6 +3,11 @@ Cookie tampering
   - curl -H "Cookie: logged_in=true; admin=true" http://MACHINE_IP/cookie-test
   - Some websites might encode cookies.
 
+Insecure Direct Object Reference
+
+IDOR is a vulnerability that occurs when internal object are exposed without proper authorization checks.
+    - INSPECT ELEMENT -> NETWORK -> customer_id.json -> id:10 USERNAME: name PASSWORD: password
+    - example.com/profile?user_id=1 -> exploits the ID number -> example.com/profile?user_id=666
 
 # Race conditions
 Requires Burp suite - reapter or intruder(pitchfork attack)

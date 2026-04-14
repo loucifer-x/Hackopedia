@@ -34,11 +34,9 @@ database vulnerability that allows an attacker to manipulate queries by injectin
 
 this exploit occurs when user inputs are not properly validated or sanitized.
 
-examples:
+example:' OR '1'='1
 
-' OR '1'='1
-
-**Possible Vulnerable Inputs**
+* **Possible Vulnerable Inputs**
 * Username
 * password
 * cookies

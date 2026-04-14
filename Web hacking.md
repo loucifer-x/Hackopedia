@@ -40,7 +40,7 @@ This exploit occurs when user inputs are not properly validated or sanitized.
 **example:**
 ' OR '1'='1
 
-* **Possible Vulnerable Inputs**
+**Possible Vulnerable Inputs**
   * Username
   * password
   * cookies

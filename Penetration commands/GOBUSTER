@@ -2,7 +2,7 @@ gobuster - Gobuster is a powerful reconnaissance tool used to brute-force direct
 
 NOTES
 -----------------------------------------------------
-Don't forget to set file extensions 
+Don't forget to set file extensions -x
 
 php    - PHP scripts
 html   - Static web pages

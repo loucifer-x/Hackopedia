@@ -3,6 +3,15 @@ gobuster - Gobuster is a powerful reconnaissance tool used to brute-force direct
 
 example use | gobuster dir -w wordlist.txt -u website.com
 
--w | wordlist.txt
--u | website.com/
--x | php,txt,html
+-w wordlist.txt
+-u website.com/
+-x php,txt,html
+-o output.txt
+
+
+
+
+-q     | quite mode
+-k     | skips SSL certificate verification
+-b 404 | excludes specific HTTP status codes
+-t 50  | sets the number of concurrent threads

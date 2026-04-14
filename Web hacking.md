@@ -62,7 +62,7 @@ DOM-Based XSS exploits insecure client-side JavaScript that inserts untrusted in
 
 
 ## Race conditions
-Requires Burp suite - reapter or intruder(pitchfork attack)
+Burp suite - **reapter or intruder**(pitchfork attack)
 
 Sending multiple requests simultaneously may trigger race conditions, leading to unintended behavior.
 

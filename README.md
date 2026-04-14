@@ -9,18 +9,18 @@ This repository serves as both a learning diary and a reference guide, documenti
 ## Topics covered so far
 1 = Finished 0 = Work in progress
 
-### *Web hacking
+__ *Web hacking __
   * [0]Local file intrusion
   * [0]SLQ injection
   * [0]IDOR
   * [0]Authentic bypass
   * [0]Common injection
-### * Penetration commands 
+* Penetration commands 
   * [1]metasploit
   * [1]NMAP
-### * Terminology
-### * Linux command line
-### * Useful links
+* Terminology
+* Linux command line
+* Useful links
 
 
 

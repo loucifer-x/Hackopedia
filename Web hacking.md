@@ -29,7 +29,7 @@ Side Note:
 _LFI is less common in modern applications due to improved security practices, but it still appears in older systems._
 
 
-# Local file inclusion
+# SQL Injection
 database vulnerability that allows an attacker to manipulate queries by injecting malicious SQL code into input fields
 
 this exploit occurs when user inputs are not properly validated or sanitized.

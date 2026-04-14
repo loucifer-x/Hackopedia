@@ -14,7 +14,6 @@ Networking
 
 
 **Three way hand shake**
- 
  * **SYN** - Synchronize | First step in establishing a connection | Can we connect?
  * **ACK** – Acknowledgement | A message confirming data was received successfully | Got it!
  * **FIN** – Finish | Used to end a TCP connection | I’m done sending data

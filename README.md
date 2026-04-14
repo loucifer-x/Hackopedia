@@ -17,6 +17,7 @@ This repository serves as both a learning diary and a reference guide, documenti
   * [0]Common injection
 * Penetration commands 
   * [1]metasploit
+  * [1]NMAP
 * Terminology
 * Linux command line
 * Useful links

@@ -8,7 +8,7 @@ Set Cookie: session_id = Auth_key | If the admin **auth_key** is on the front en
 
 
 **Cookie tampering**
-curl -H "Cookie: logged_in=true; admin=true"example.com/cookie-test
+```curl -H "Cookie: logged_in=true; admin=true"example.com/cookie-test```
 Some websites might encode cookies so encode *Cookie: logged_in=true; admin=true"*
 
 

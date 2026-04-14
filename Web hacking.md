@@ -1,4 +1,7 @@
-# Common
+# Web hacking
+
+
+## Common
 **Cookie tampering**
   - curl -H "Cookie: logged_in=true; admin=true"example.com/cookie-test
   - Some websites might encode cookies so encode *Cookie: logged_in=true; admin=true"*
@@ -10,7 +13,7 @@ _IDOR is a vulnerability that occurs when internal object are exposed without pr
     - INSPECT ELEMENT -> NETWORK -> customer_id.json -> id:10 USERNAME: name PASSWORD: password
     - example.com/profile?user_id=1 -> exploits the ID number -> example.com/profile?user_id=666
 
-# Cros-site scripting (XXS)
+## Cros-site scripting (XXS)
 *a vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users. In short,
 XSS tricks a website into running harmful code in a user's browser.*
 
@@ -18,7 +21,7 @@ Example:
 
 
 
-# Race conditions
+## Race conditions
 Requires Burp suite - reapter or intruder(pitchfork attack)
 
 Sending multiple requests simultaneously may trigger race conditions, leading to unintended behavior.
@@ -28,7 +31,7 @@ Sending multiple requests simultaneously may trigger race conditions, leading to
  - Register the same email with diffrent accounts(abusing free trials)
  - Multipul uses of a gift card
 
-# Local file inclusion
+## Local file inclusion
 
 FLI is a web application vulnerability that allows an attacker to access files stored on the server 
 
@@ -57,7 +60,7 @@ Side Note:
 _LFI is less common in modern applications due to improved security practices, but it still appears in older systems._
 
 
-# SQL Injection
+## SQL Injection
 database vulnerability that allows an attacker to manipulate queries by injecting malicious SQL code into input fields.
 This exploit occurs when user inputs are not properly validated or sanitized.
 

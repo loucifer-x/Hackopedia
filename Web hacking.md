@@ -37,7 +37,8 @@ This exploit occurs when user inputs are not properly validated or sanitized.
 * No Delay -> High probability there is no SQL injection vulnerability
 * Delayed Response -> High probability of a SQL injection vulnerability
 
-example:' OR '1'='1
+**example:**
+' OR '1'='1
 
 * **Possible Vulnerable Inputs**
  * Username

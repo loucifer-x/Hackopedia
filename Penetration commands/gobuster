@@ -3,7 +3,7 @@ gobuster - Gobuster is a powerful reconnaissance tool used to brute-force direct
 
 example use | gobuster dir -w wordlist.txt -u website.com
 
-Common Options
+Common options
   -w wordlist.txt
   -u website.com/
   -x php,txt,html
@@ -14,3 +14,17 @@ Common Options
   -k     | skips SSL certificate verification
   -b 404 | excludes specific HTTP status codes
   -t 50  | sets the number of concurrent threads
+
+Modes options
+  dir – Directory and file enumeration
+  dns – Subdomain discovery
+  vhost – Virtual host discovery
+  fuzz – URL and parameter fuzzing
+  s3 – Amazon S3 bucket enumeration
+  gcs – Google Cloud Storage bucket enumeration
+
+Examples
+  gobuster dir -u http://example.com -w wordlist.txt
+  gobuster dns -d example.com -w wordlist.txt
+  gobuster vhost -u http://example.com -w wordlist.txt
+  gobuster fuzz -u http://example.com/FUZZ -w wordlist.txt

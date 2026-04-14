@@ -20,7 +20,7 @@ This repository serves as both a learning diary and a reference guide, documenti
   * [1] - Metasploit
   * [1] - NMAP
   * [1] - Gobuster
-  * [0] - SQLmap
+  * [1] - SQLmap
   * [0] - John the ripper
   * [0] - Burp suite
 

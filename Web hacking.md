@@ -3,7 +3,7 @@
 
 web application vulnerability that allows an attacker to access files stored on the server
 
-example - __example.com/index.php?page=etc/password__
+example - __example.com/index.php?page=etc/<ins>password</ins>__
 
 You can move up directories with ../../../../
 So our example would change too __example.com/index.php?page=./../../../etc/password__

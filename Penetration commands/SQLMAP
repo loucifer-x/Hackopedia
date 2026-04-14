@@ -3,14 +3,13 @@ SQLMAP - testing tool used to detect and exploit SQL injection vulnerabilities i
 
 NOTES
 -----------------------------------------------------
--dbs=mysql 
+--dbs=mysql 
   Limits testing to MySQL-specific payloads.
   Speeds up the scanning process by avoiding unnecessary checks for other database types.
   Reduces network traffic and false positives.
 
 
--batch
-  non-interactive mode, allowing sqlmap to run automatically without prompting the user for input
+
 -----------------------------------------------------
 
 
@@ -21,6 +20,10 @@ NOTES
 --data="email=test@gmail.com&password=password"
 
 
+
+
+-batch
+  non-interactive mode, allowing sqlmap to run automatically without prompting the user for input
 
 Safest workflow for black box backing
 

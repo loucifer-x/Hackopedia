@@ -2,6 +2,7 @@
 # Local file inclusion
 
 FLI is a web application vulnerability that allows an attacker to access files stored on the server 
+
 __example.com/index.php?page=<ins>etc/password</ins>__
 
 You can move up directories with ../../../../

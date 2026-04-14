@@ -33,14 +33,20 @@ _LFI is less common in modern applications due to improved security practices, b
 database vulnerability that allows an attacker to manipulate queries by injecting malicious SQL code into input fields.
 This exploit occurs when user inputs are not properly validated or sanitized.
 
+It is possible to detect SQL injection vulnerabilities by observing delays in a website’s response time.
+
+No Delay -> High probability there is no SQL injection vulnerability
+
+Delayed Response -> High probability of a SQL injection vulnerability
+
 example:' OR '1'='1
 
 * **Possible Vulnerable Inputs**
-* Username
-* password
-* cookies
-* search bar
-* form fields
+ * Username
+ * password
+ * cookies
+ * search bar
+ * form fields
 
 
 Side Note:

@@ -1,7 +1,7 @@
 SQLMAP - testing tool used to detect and exploit SQL injection vulnerabilities in web applications
 
 Injceting into a data base
-  sqlmap -u "http://localhost/login.php" --method=POST --data="email=test@test.com&password=test123" --dbms=mysql --batch -D [DATABASE] -T [TABLE] 
+  sqlmap -u "http://localhost/login.php" --method=POST --data="email=test@test.com&password=test123" --dbs=mysql --batch -D [DATABASE] -T [TABLE] 
 
 
 
@@ -21,7 +21,7 @@ IMPORTANT -
   -batch
     non-interactive mode, allowing sqlmap to run automatically without prompting the user for input
 
-Safest workflow for black box backing
+Safest workflow for black box hacking to find SQL Tables.
 
 1	--dbs	          | List all databases
 2	-D <database>	  | Select a specific database

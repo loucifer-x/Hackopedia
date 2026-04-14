@@ -1,8 +1,5 @@
 TERMS
 -
-**Authentication, Authorization, Confidelility, intergraty, Availability, Encryption, HTTPS, DNS, IP ADDRESS, SYN, ACK,FIN,TCP,UDP**
-
-
 
 Networking
 -

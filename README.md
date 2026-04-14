@@ -20,8 +20,12 @@ This repository serves as both a learning diary and a reference guide, documenti
   * [0] - Authentic bypass
   * [0] - Common injection
 * __Penetration commands__ 
-  * [1] - metasploit
+  * [1] - Metasploit
   * [1] - NMAP
+  * [1] - Gobuster
+  * [0] - SQLmap
+  * [0] - John
+  * [0] - Burp suite
 
 
 

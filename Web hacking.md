@@ -5,7 +5,7 @@ web application vulnerability that allows an attacker to access files stored on 
 
 example - __example.com/index.php?page=etc/password__
 
-You can move up directories with __"../../../../"__
+You can move up directories with ../../../../
 So our example would change too __example.com/index.php?page=./../../../etc/password__
 
 

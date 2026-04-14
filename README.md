@@ -1,5 +1,5 @@
 # Hackopedia
--
+
 Started: 07 April 2026
 
 Hackopedia is my own personal cybersecurity knowledge mapped out in a neat document. It's a collection of concepts, tools, techniques, termaonlgly and insights gathered throughout my journey.

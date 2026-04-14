@@ -14,7 +14,7 @@ This repository serves as both a learning diary and a reference guide, documenti
 * __Linux command line__
 * __Useful links__
 * __Web hacking__
-  * [0] - Local file intrusion
+  * [1] - Local file inclusion
   * [0] - SLQ injection
   * [0] - Insecure Direct Object Reference
   * [0] - Authentic bypass

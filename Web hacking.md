@@ -21,9 +21,8 @@ STORED -
     - Comment sections, forums, user profiles, and product reviews
     - Effects every user
 
-### DOM BASED -
+### DOM BASED
 This takes advantage of how **querySelector** is used in the sites javascript.
-
 
 **VULNERABLE CODE**
 ```
@@ -35,11 +34,7 @@ This takes advantage of how **querySelector** is used in the sites javascript.
   document.querySelector("#output").innerHTML = "Hello, " + name;
 </script>
 ```
-
-
-Example:
-  - https://example.com/search?q=<script>alert('XSS')</script>
-
+https://example.com/?name=<script>alert('DOM XSS')</script>
 
 
 ## Race conditions

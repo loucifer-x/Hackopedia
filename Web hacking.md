@@ -10,9 +10,11 @@ You can move up directories with ../../../../ -> __example.com/index.php?page=./
 
 
 .. = parent directory
+
 / = directory separator
 
 %00 = is a null byte, a special character that tells a computer, Stop reading here.
+
 example.com/index.php?page=./../../../etc/password%00
 
 * F-P-I-T-V-L

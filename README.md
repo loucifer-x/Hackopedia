@@ -19,6 +19,10 @@ This repository serves as both a learning diary and a reference guide, documenti
   * [1] - SLQ injection
   * [1] - IDOR
   * [1] - Cookie tampering
+  * [1] - XSS
+  * [1] - Remote code execution
+  * [1] - Session hijacking
+ 
 * __Penetration commands__ 
   * [1] - Metasploit
   * [1] - NMAP

@@ -1,6 +1,8 @@
 gobuster - Gobuster is a powerful reconnaissance tool used to brute-force directories, files, and subdomains that may be hidden on a web server.
 
 
+example use | gobuster dir -w wordlist.txt -u website.com
 
 -w | wordlist.txt
-- u | website.com/
+-u | website.com/
+-x | php,txt,html

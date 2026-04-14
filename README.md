@@ -18,12 +18,8 @@ This repository serves as both a learning diary and a reference guide, documenti
 * Penetration commands 
   * [1]metasploit
 * Terminology
-  * [1]Networking
-  * [1]Encryption
-  * [1]CIA Triad
-  * [1]Access Controls
-* [1]Linux command line
-* [1]Useful links
+* Linux command line
+* Useful links
 
 
 

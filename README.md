@@ -8,9 +8,9 @@ This repository serves as both a learning diary and a reference guide, documenti
 
 Topics covered so far
 -
-100. Pen testing tools
-nmap 
-metasploit
+*Pen testing tools
+  *nmap 
+  *metasploit
 Linux command line
 Termaonlgly
 

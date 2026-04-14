@@ -38,9 +38,12 @@ examples:
 
 ' OR '1'='1
 
-Possible Vulnerable Inputs -
-
-Username, password, cookies, search bar, form fields, 
+Possible Vulnerable Inputs
+* Username
+* password
+* cookies
+* search bar
+* form fields
 
 
 Side Note:

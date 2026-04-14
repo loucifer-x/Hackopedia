@@ -21,11 +21,9 @@ Networking
 
 Encryption 
 -
- converts data into a secret code
- 
- creating your own langauge only your buddies can understand.
- 
- telegram encrpyts all messages so only the sender and reciver may see the text.
+ * converts data into a secret code
+ * creating your own langauge only your buddies can understand.
+ * telegram encrpyts all messages so only the sender and reciver may see the text.
 
 ------------------------------------------------------------------------------------------
 Access controls - 

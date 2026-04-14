@@ -37,20 +37,19 @@ Access controls
       * A hallway filled up with magic doors, which close if your not cool enough.
       * A staff member looking at a work schedule but unable to edit.
 
-------------------------------------------------------------------------------------------
-CIA triad - 
-------------------------------------------------------------------------------------------
-   confidelility -  
-        Checks that data is only accessible to authorized people. 
-        A magic door that only accepts people on a list. 
-        A company keeps employee records confidential so only HR can access them.
+CIA triad 
+-
+  * confidelility -  
+       * Checks that data is only accessible to authorized people. 
+       * A magic door that only accepts people on a list. 
+       * A company keeps employee records confidential so only HR can access them.
 
-   intergraty - 
-        Checks if the data is accurate and reliable. 
-        It looks like a flower, it is a flower. 
-        A database with integrity ensures that all entries are correct and nothing is missing or corrupted.
+  * intergraty - 
+       * Checks if the data is accurate and reliable. 
+       * It looks like a flower, it is a flower. 
+       * A database with integrity ensures that all entries are correct and nothing is missing or corrupted.
 
-   Availability - 
-       Shows the correct infomation to the correct users when needed.
-       like a libary you can just walk in at any time and select whatever book you'd like.
-       A bank’s website stays online 24/7 so customers can check their accounts anytime.
+  * Availability - 
+      * Shows the correct infomation to the correct users when needed.
+      * like a libary you can just walk in at any time and select whatever book you'd like.
+      * A bank’s website stays online 24/7 so customers can check their accounts anytime.

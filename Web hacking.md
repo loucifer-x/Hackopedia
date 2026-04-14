@@ -23,8 +23,8 @@ STORED -
 
 DOM BASED -
 This takes advantage of how querySelector is used in the sites javascript.
-'
-<div id="output"></div>
+
+_<div id="output"></div>
 
 <script>
   const params = new URLSearchParams(window.location.search);
@@ -33,9 +33,8 @@ This takes advantage of how querySelector is used in the sites javascript.
   // Vulnerable: Inserts untrusted input into the DOM
   document.querySelector("#output").innerHTML = "Hello, " + name;
 </script>
-'
     - User input is stored on the client side javascript
-  
+  _
 Example:
   - https://example.com/search?q=<script>alert('XSS')</script>
 

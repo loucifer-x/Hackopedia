@@ -18,9 +18,9 @@ _IDOR is a vulnerability that occurs when internal object are exposed without pr
 
 
  ### Stored XSS (Persistent XSS)
-    - User input is stored on the server
-    - Comment sections, forums, user profiles, and product reviews
-    - Effects every user
+    -User input is stored on the server
+    -Comment sections, forums, user profiles, and product reviews
+    -Effects every user
 
 **VULNERABLE CODE**
 ```

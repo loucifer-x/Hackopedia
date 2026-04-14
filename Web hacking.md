@@ -27,7 +27,7 @@ example.com/index.php?page=./../../../etc/password%00
 
 
 Side Note:
-LFI is less common in modern applications due to improved security practices, but it still appears in older systems.
+* * LFI is less common in modern applications due to improved security practices, but it still appears in older systems. * *
 
 ------------------------------------------------------------------------------------------
 SQL injection

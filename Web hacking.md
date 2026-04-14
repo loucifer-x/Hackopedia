@@ -1,4 +1,3 @@
-
 # Local file inclusion
 
 FLI is a web application vulnerability that allows an attacker to access files stored on the server 
@@ -29,20 +28,22 @@ example.com/index.php?page=./../../../etc/password%00
 Side Note:
 _LFI is less common in modern applications due to improved security practices, but it still appears in older systems._
 
-------------------------------------------------------------------------------------------
-SQL injection
-------------------------------------------------------------------------------------------
+
+# Local file inclusion
 database vulnerability that allows an attacker to manipulate queries by injecting malicious SQL code into input fields
+
 this exploit occurs when user inputs are not properly validated or sanitized.
 
 examples:
+
 ' OR '1'='1
 
 Possible Vulnerable Inputs -
+
 Username, password, cookies, search bar, form fields, 
 
 
 Side Note:
-SQLMap is a powerful penetration  tool used for detecting and exploiting sql vulnerabilities in web applications.
+_SQLMap is a powerful penetration  tool used for detecting and exploiting sql vulnerabilities in web applications._
 
 

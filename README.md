@@ -12,7 +12,7 @@ This repository serves as both a learning diary and a reference guide, documenti
   * nmap 
   * metasploit
 * Linux command line
-* Termaonlgly
+* Terminology
   * Networking
   * Encryption
   * CIA Triad

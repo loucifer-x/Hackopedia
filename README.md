@@ -8,11 +8,11 @@ This repository serves as both a learning diary and a reference guide, documenti
 
 Topics covered so far
 -
-*Pen testing tools
-  *nmap 
-  *metasploit
-Linux command line
-Termaonlgly
+* Pen testing tools
+  * nmap 
+  * metasploit
+* Linux command line
+* Termaonlgly
 
 
 

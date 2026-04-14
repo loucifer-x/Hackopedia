@@ -4,7 +4,7 @@ SQLMAP - testing tool used to detect and exploit SQL injection vulnerabilities i
 sqlmap -u "http://example.com/page?id=1" -dbs
 
 
-Safest workflow
+Safest workflow for black box backing
 
 1	--dbs	        | List all databases
 2	-D <database>	| Select a specific database

@@ -9,7 +9,7 @@ This repository serves as both a learning diary and a reference guide, documenti
 ## Topics covered so far
 1 = Finished 0 = Work in progress
 
-__ *Web hacking __
+** *Web hacking **
   * [0]Local file intrusion
   * [0]SLQ injection
   * [0]IDOR

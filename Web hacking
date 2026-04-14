@@ -23,6 +23,10 @@ template - http://example.com/index.php?template=../../../../etc/passwd
 view - http://example.com/index.php?view=../../../../etc/passwd
 lang - http://example.com/index.php?lang=../../../../etc/passwd
 
+
+Side Note:
+LFI is less common in modern applications due to improved security practices, but it still appears in older systems.
+
 ------------------------------------------------------------------------------------------
 SLQ injection
 ------------------------------------------------------------------------------------------

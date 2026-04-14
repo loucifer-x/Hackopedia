@@ -16,9 +16,6 @@ This repository serves as both a learning diary and a reference guide, documenti
 * __Web hacking__
   * [1] - Local file inclusion
   * [1] - SLQ injection
-  * [0] - Insecure Direct Object Reference
-  * [0] - Authentic bypass
-  * [0] - Common injection
 * __Penetration commands__ 
   * [1] - Metasploit
   * [1] - NMAP

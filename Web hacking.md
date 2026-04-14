@@ -1,6 +1,6 @@
 # Common
 **Cookie tampering**
-  - curl -H "Cookie: logged_in=true; admin=true" http://MACHINE_IP/cookie-test
+  - curl -H "Cookie: logged_in=true; admin=true" http://example.com/cookie-test
   - Some websites might encode cookies.
 
 **Insecure Direct Object Reference**

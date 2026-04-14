@@ -1,5 +1,5 @@
-## Local file inclusion - 
-
+Local file inclusion
+-
 web application vulnerability that allows an attacker to access files stored on the server
 
 example - http://example.com/index.php?page=etc/password

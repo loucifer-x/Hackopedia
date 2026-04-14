@@ -14,14 +14,14 @@ This repository serves as both a learning diary and a reference guide, documenti
 * __Linux command line__
 * __Useful links__
 * __Web hacking__
-  * [0]Local file intrusion
-  * [0]SLQ injection
-  * [0]IDOR
-  * [0]Authentic bypass
-  * [0]Common injection
+  * [0] - Local file intrusion
+  * [0] - SLQ injection
+  * [0] - IDOR
+  * [0] - Authentic bypass
+  * [0] - Common injection
 * __Penetration commands__ 
-  * [1]metasploit
-  * [1]NMAP
+  * [1] - metasploit
+  * [1] - NMAP
 
 
 

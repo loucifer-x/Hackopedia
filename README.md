@@ -15,7 +15,7 @@ This repository serves as both a learning diary and a reference guide, documenti
 * __Useful links__
 * __Web hacking__
   * [1] - Local file inclusion
-  * [0] - SLQ injection
+  * [1] - SLQ injection
   * [0] - Insecure Direct Object Reference
   * [0] - Authentic bypass
   * [0] - Common injection

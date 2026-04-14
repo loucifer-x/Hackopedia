@@ -16,7 +16,7 @@ Networking
 * **ACK** – Acknowledgement | A message confirming data was received successfully | Got it!
 * **FIN** – Finish | Used to end a TCP connection | I’m done sending data
 
-* **Three way hand shake**
+**Three way hand shake**
  * SYN -> Client sends request
  * SYN + ACK → Server replies
  * ACK -> Client confirms connection

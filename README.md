@@ -10,20 +10,20 @@ This repository serves as both a learning diary and a reference guide, documenti
 
 
 *Web hacking
-  * [X]Local file intrusion
-  * [X]SLQ injection
-  * [X]IDOR
-  * [X]Authentic bypass
-  * [X]Common injection
+  * [0]Local file intrusion
+  * [0]SLQ injection
+  * [0]IDOR
+  * [0]Authentic bypass
+  * [0]Common injection
 * Penetration commands 
-  * []metasploit
+  * [1]metasploit
 * Terminology
-  * []Networking
-  * []Encryption
-  * []CIA Triad
-  * []Access Controls
-* []Linux command line
-* []Useful links
+  * [1]Networking
+  * [1]Encryption
+  * [1]CIA Triad
+  * [1]Access Controls
+* [1]Linux command line
+* [1]Useful links
 
 
 

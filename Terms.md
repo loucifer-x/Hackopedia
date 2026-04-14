@@ -18,11 +18,13 @@ Networking
    * SYN + ACK → Server replies
    * ACK -> Client confirms connection
 
-------------------------------------------------------------------------------------------
+
 Encryption 
-------------------------------------------------------------------------------------------
+-
  converts data into a secret code
+ 
  creating your own langauge only your buddies can understand.
+ 
  telegram encrpyts all messages so only the sender and reciver may see the text.
 
 ------------------------------------------------------------------------------------------

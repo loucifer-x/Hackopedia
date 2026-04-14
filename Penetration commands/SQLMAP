@@ -1,7 +1,18 @@
 SQLMAP - testing tool used to detect and exploit SQL injection vulnerabilities in web applications
 
 
-sqlmap -u "http://example.com/page?id=1" 
+NOTES
+-----------------------------------------------------
+-dbs=mysql 
+  Limits testing to MySQL-specific payloads.
+  Speeds up the scanning process by avoiding unnecessary checks for other database types.
+  Reduces network traffic and false positives.
+
+
+-batch
+  non-interactive mode, allowing sqlmap to run automatically without prompting the user for input
+-----------------------------------------------------
+
 
 
 --method=POST,GET 

@@ -24,6 +24,7 @@ _IDOR is a vulnerability that occurs when internal object are exposed without pr
 
 ## Remote code execution
 *a vulnerability that enables attackers to run malicious code on a target server through a web application or network service*
+
 **VULNERABLE CODE**
 ```
 <?php

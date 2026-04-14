@@ -13,7 +13,7 @@ NOTES
   Reduces network traffic and false positives.
 
 Use dummy credentials 
-
+--Data infomation is based from inputs in the HTML code.
 -----------------------------------------------------
 IMPORTANT -
   --method=POST,GET 

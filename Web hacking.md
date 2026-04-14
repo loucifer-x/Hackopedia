@@ -30,9 +30,8 @@ _LFI is less common in modern applications due to improved security practices, b
 
 
 # SQL Injection
-database vulnerability that allows an attacker to manipulate queries by injecting malicious SQL code into input fields
-
-this exploit occurs when user inputs are not properly validated or sanitized.
+database vulnerability that allows an attacker to manipulate queries by injecting malicious SQL code into input fields.
+This exploit occurs when user inputs are not properly validated or sanitized.
 
 example:' OR '1'='1
 

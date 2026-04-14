@@ -8,7 +8,7 @@ This repository serves as both a learning diary and a reference guide, documenti
 
 ## Topics covered so far
 
-* Pen testing 
+* Penetration commands 
   * nmap 
   * metasploit
 * Terminology

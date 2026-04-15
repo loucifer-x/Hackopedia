@@ -44,6 +44,8 @@ Complie this text as a shared extension
 ## SUID
 you can use **find / -type f -perm -04000 -ls 2>/dev/null** to find files UID or SGID bits set.
 
+check ```https://gtfobins.org/#+suid``` for related SUID
+
 
 
 ## Capabilities

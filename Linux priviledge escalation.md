@@ -13,8 +13,9 @@ All based on ```https://gtfobins.org/```
 - **UID**
     - *you can use* **find / -type f -perm -04000 -ls 2>/dev/null** *to find files UID bits set.*
 - **Capabilities** 
-    -  *you can use* **getcap -r / 2>/dev/null** *to find binaries with Linux capabilities that may allow elevated or specialized privileges.*
-
+    -  *you can use* **getcap -r / 2>/dev/null** *to find binaries that may allow elevated or specialized privileges.*
+- **Crone tobs** /etc/crontab
+    -  If crone tabs are set up incorrectly it's possible to add your own code like a **Reverse shell**
 
 
 ### LD_PRELOAD
@@ -48,20 +49,7 @@ Complie this text as a shared extension
 
 **Allowed binary** *= What commands you have access to in sudo -l*
 
-
-
-
-
-## Crone jobs
-
-
-
-
-
 ## Path
-
-
-
 
 
 ## NFS

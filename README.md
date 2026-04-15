@@ -7,30 +7,13 @@ Hackopedia is my own personal cybersecurity knowledge mapped out in a neat docum
 This repository serves as both a learning diary and a reference guide, documenting my personal growth and understanding in the field.
 
 ## Topics covered so far
-1 = Finished | 0 = In progress
-
 
 * __Linux priviledge escalation__
 * __Terminology__
 * __Linux command line__
 * __Useful links__
 * __Web hacking__
-  * [1] - Race Conditions 
-  * [1] - Local file inclusion
-  * [1] - SLQ injection
-  * [1] - IDOR
-  * [1] - Cookie tampering
-  * [1] - XSS
-  * [1] - Remote code execution
-  * [1] - Session hijacking
- 
 * __Penetration commands__ 
-  * [1] - Metasploit
-  * [1] - NMAP
-  * [1] - Gobuster
-  * [1] - SQLmap
-  * [0] - John the ripper
-  * [0] - Burp suite
 
 
 

@@ -5,11 +5,17 @@ Metasploit has exploits that allow privileged escalation.
 - Search for an exploit that works for the kernel version
 - Run the exploit 
 
+##Common
+All based on ```https://gtfobins.org/```
 
-## Sudo
-You can use ```https://gtfobins.org/``` to check what applications might bypass sudo permissions and lead to priviledge escalation.
-
+**Sudo**
 *You can see what sudo permissions you have available with* **sudo -l** 
+**UID**
+you can use **find / -type f -perm -04000 -ls 2>/dev/null** to find files UID or SGID bits set.
+**Capabilities**
+getcap -r / 2>/dev/null
+
+
 
 ### LD_PRELOAD
 Using **sudo -l** you an option may be avaiable called ```env_keep+=LD_PRELOAD``` which is another possible priviledge escalation method.
@@ -41,15 +47,6 @@ Complie this text as a shared extension
 **Finnaly** ```sudo LD_PRELOAD=./Exploit.so <allowed_binary>```
 *Allowed binary = What commands you have access to in sudo -l
 
-## SUID
-you can use **find / -type f -perm -04000 -ls 2>/dev/null** to find files UID or SGID bits set.
-
-check ```https://gtfobins.org/#+suid``` for related SUID
-
-
-
-## Capabilities
-getcap -r / 2>/dev/null
 
 
 

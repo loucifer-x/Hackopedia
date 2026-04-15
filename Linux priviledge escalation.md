@@ -5,7 +5,7 @@ Metasploit has exploits that allow privileged escalation.
 - Search for an exploit that works for the kernel version
 - Run the exploit 
 
-##Common
+## Common
 All based on ```https://gtfobins.org/```
 
 **Sudo**

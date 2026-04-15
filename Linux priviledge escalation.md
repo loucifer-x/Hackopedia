@@ -42,7 +42,7 @@ Complie this text as a shared extension
 *Allowed binary = What commands you have access to in sudo -l
 
 ## SUID
-
+**find / -type f -perm -04000 -ls 2>/dev/null** to find files UID or SGID bits set.
 
 
 

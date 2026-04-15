@@ -34,8 +34,8 @@ Complie this text as a shared extension
 
 - *fPIC	Generates Position-Independent Code required for shared libraries.*
 - *-shared	compiles to a shared object .so*
-- *-o Exploit.so    |output filename.*
-- *Exploit.c    |input file.*
+- *-o Exploit.so    |    output filename.*
+- *Exploit.c    |    input file.*
 - *nostartfiles	Prevents standard startup routines so _init() executes immediately.*
 
 

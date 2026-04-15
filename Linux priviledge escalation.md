@@ -12,7 +12,7 @@ You can use ```https://gtfobins.org/``` to check what applications might bypass 
 *You can see what sudo permissions you have available with* **sudo -l** 
 
 ### LD_PRELOAD
-Using **sudo -l** you an option may be avaiable called ```env_keep+=LD_PRELOAD```
+Using **sudo -l** you an option may be avaiable called ```env_keep+=LD_PRELOAD``` which is another possible priviledge escalation
 
 
 ## SUID

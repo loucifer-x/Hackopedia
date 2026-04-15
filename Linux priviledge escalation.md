@@ -45,7 +45,7 @@ Complie this text as a shared extension
 - *nostartfiles	Prevents standard startup routines so _init() executes immediately.*
 
 **Finnaly** ```sudo LD_PRELOAD=./Exploit.so <allowed_binary>```
-*Allowed binary = What commands you have access to in sudo -l
+**Allowed binary** *= What commands you have access to in sudo -l*
 
 
 

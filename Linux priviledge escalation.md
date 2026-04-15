@@ -9,7 +9,7 @@ Metasploit has exploits that allow privileged escalation.
 ## Sudo
 You can use ```https://gtfobins.org/``` to check what applications might bypass sudo permissions and lead to priviledge escalation.
 
-*You can see what sudo permissions you have with* **sudo -l** 
+*You can see what sudo permissions you have available with* **sudo -l** 
 
 
 ## SUID

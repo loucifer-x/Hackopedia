@@ -41,6 +41,8 @@ df -h — Show disk usage
 free -h — Show memory usage
 lscpu - CPU infomation
 lsblk — List Disk Drives
+
+gcc - compiles; c, c++, | gcc test.c -o test -w
 chmod - runs executable
 
 

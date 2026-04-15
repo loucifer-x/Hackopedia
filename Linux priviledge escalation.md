@@ -30,7 +30,7 @@ void _init() {
 }
 ```
 Complie this text as a shared extension
-**gcc -fPIC -shared -o Exploit.so Exploit.c -nostartfiles**
+**gcc -fPIC -shared -o Exploit.so Exploit.c -nostartfiles** 
 
 - *fPIC	Generates Position-Independent Code required for shared libraries.*
 - *-shared	compiles to a shared object .so*

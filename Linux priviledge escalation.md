@@ -16,9 +16,9 @@ Using **sudo -l** you an option may be avaiable called ```env_keep+=LD_PRELOAD``
 
 
 Complie this text as a shared extension
-**gcc -FPIC -shared -o Exploit.so Exploit.c -nostartfiles**
+**gcc -fPIC -shared -o Exploit.so Exploit.c -nostartfiles**
 
-- *FPIC	Generates Position-Independent Code required for shared libraries.*
+- *fPIC	Generates Position-Independent Code required for shared libraries.*
 - *-shared	compiles to a shared object .so*
 - *-o Exploit.so    |output filename.*
 - *Exploit.c    |input file.*

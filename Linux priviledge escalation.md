@@ -49,7 +49,7 @@ check ```https://gtfobins.org/#+suid``` for related SUID
 
 
 ## Capabilities
-
+getcap -r / 2>/dev/null
 
 
 

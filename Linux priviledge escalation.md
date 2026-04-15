@@ -11,7 +11,7 @@ You can use ```https://gtfobins.org/``` to check what applications might bypass 
 
 *You can see what sudo permissions you have available with* **sudo -l** 
 
-**LD_PRELOAD**
+### LD_PRELOAD
 
 
 

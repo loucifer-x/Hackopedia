@@ -20,13 +20,13 @@ Complie this text as a shared extension
 
 - *fPIC	Generates Position-Independent Code required for shared libraries.*
 - *shared	Produces a shared object (.so) instead of an executable.*
-- *o Exploit.so	Specifies the output filename.*
+- *-o Exploit.so	Specifies the output filename.*
 - *Exploit.c	The source file.*
 - *nostartfiles	Prevents standard startup routines so _init() executes immediately.*
 
 
 
-Name *Exploit*
+Name *Exploit.c*
 ```
 #include <stdio.h>
 #include <sys/types.h>

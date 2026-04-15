@@ -8,11 +8,11 @@ Metasploit has exploits that allow privileged escalation.
 ## Common
 All based on ```https://gtfobins.org/```
 
-**Sudo**
+- **Sudo**
     - *You can see what sudo permissions you have available with* **sudo -l** 
-**UID**
+- **UID**
     -you can use **find / -type f -perm -04000 -ls 2>/dev/null** to find files UID or SGID bits set.
-**Capabilities**
+- **Capabilities**
     -  getcap -r / 2>/dev/null
 
 

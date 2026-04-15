@@ -10,6 +10,7 @@ This repository serves as both a learning diary and a reference guide, documenti
 1 = Finished | 0 = In progress
 
 
+* __Linux priviledge escalation__*
 * __Terminology__
 * __Linux command line__
 * __Useful links__

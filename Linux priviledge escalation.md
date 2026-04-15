@@ -1,32 +1,32 @@
 
-##Kernel exploits
+## Kernel exploits
 
 
-##Sudo
-
-
-
-##SUID
+## Sudo
 
 
 
-
-##Capabilities
+## SUID
 
 
 
 
-
-##Crone jobs
+## Capabilities
 
 
 
 
 
-##Path
+## Crone jobs
 
 
 
 
 
-#NFS
+## Path
+
+
+
+
+
+# NFS

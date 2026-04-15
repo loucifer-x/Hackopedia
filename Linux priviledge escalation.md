@@ -1,5 +1,12 @@
 
 ## Kernel exploits
+Metasploit has exploits that allow privileged escalation.
+
+
+
+- Find the kernel version using **uname -r**
+- Search for an exploit that works for the kernel version
+- Run the exploit 
 
 
 ## Sudo
@@ -29,4 +36,4 @@
 
 
 
-# NFS
+## NFS

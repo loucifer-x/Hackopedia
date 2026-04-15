@@ -14,7 +14,7 @@ All based on ```https://gtfobins.org/```
     - *you can use* **find / -type f -perm -04000 -ls 2>/dev/null** *to find files UID bits set.*
 - **Capabilities** 
     -  *you can use* **getcap -r / 2>/dev/null** *to find binaries that may allow elevated or specialized privileges.*
-- **Crone tobs** /etc/crontab
+- **Crone tabs** /etc/crontab
     -  If crone tabs are set up incorrectly it's possible to add your own code like a **Reverse shell**
 
 

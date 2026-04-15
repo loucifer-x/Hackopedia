@@ -7,7 +7,9 @@ Metasploit has exploits that allow privileged escalation.
 
 
 ## Sudo
+ You can see what sudo permissions you have with  **sudo -l**
 
+```https://gtfobins.org/```
 
 
 ## SUID

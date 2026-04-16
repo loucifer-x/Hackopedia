@@ -50,7 +50,7 @@ Complie this text as a shared extension
 **Allowed binary** *= What commands you have access to in sudo -l*
 
 ## Path
-**$PATH** *esculation happens when **$PATH** *isn't focused on the full path **ls** instead of the full path* **/bin/ls.** 
+**$PATH** *esculation happens when* **$PATH** *isn't focused on the full path **ls** instead of the full path* **/bin/ls.** 
 Since linux searches the **$PATH** directories in order, an attacker can place a malicious script with the same name in a directory that is checked first.
 
 **which COMMAND** to check the path of the command.

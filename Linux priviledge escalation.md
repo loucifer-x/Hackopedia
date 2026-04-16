@@ -50,6 +50,7 @@ Complie this text as a shared extension
 **Allowed binary** *= What commands you have access to in sudo -l*
 
 ## Path
-
+*$PATH esculation happens when sudo commands are setup incorrectly. For example ls instead of /bin/ls*
+Use **echo $PATH** to print out the path directory.
 
 ## NFS

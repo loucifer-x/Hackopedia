@@ -49,8 +49,8 @@ Complie this text as a shared extension
 
 **Allowed binary** *= What commands you have access to in sudo -l*
 
-## Path
-**$PATH** *esculation happens when* **$PATH** *isn't focused on the full path, for example **ls** instead of the full path* **/bin/ls.** 
+## $Path
+**$PATH** escalation occurs when a high privilege executable like a SUID binary calls a system command e.g ls, cat, echo using a relative path rather than an absolute path e.g bin/ls
 
 **find / -writable 2>/dev/null** find writeable files. 
 

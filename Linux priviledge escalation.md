@@ -54,6 +54,7 @@ Complie this text as a shared extension
 Since linux searches the **$PATH** directories in order, an attacker can place a malicious script with the same name in a directory that is checked first.
 
 **find / -writable 2>/dev/null** find writeable files. 
+
 **find / -writable 2>/dev/null | cut -d "/" -f 2,3 | grep -v proc | sort -u** to hide running related proccesses. 
 
 **which** *command* to check the path of the command.

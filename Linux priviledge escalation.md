@@ -51,7 +51,6 @@ Complie this text as a shared extension
 
 ## Path
 **$PATH** *esculation happens when* **$PATH** *isn't focused on the full path, for example **ls** instead of the full path* **/bin/ls.** 
-Since linux searches the **$PATH** directories in order, you can place a malicious script with the same name in a directory that is checked first.
 
 **find / -writable 2>/dev/null** find writeable files. 
 

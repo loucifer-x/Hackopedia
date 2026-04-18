@@ -1,12 +1,12 @@
 
 ## Check list
 
-**- sudo -l**
-**- find / -type f -perm -04000 -ls 2>/dev/null**
-**- getcap -r / 2>/dev/null**
-**- cat /etc/crontab**
-**- find / -writable 2>/dev/null | cut -d "/" -f 2,3 | grep -v proc | sort -u**
-**- cat /etc/exports**
+- **sudo -l**
+- **find / -type f -perm -04000 -ls 2>/dev/null**
+- **getcap -r / 2>/dev/null**
+- **cat /etc/crontab**
+- **find / -writable 2>/dev/null | cut -d "/" -f 2,3 | grep -v proc | sort -u**
+- **cat /etc/exports**
 
 ## Kernel exploits
 Metasploit has exploits that allow privileged escalation.

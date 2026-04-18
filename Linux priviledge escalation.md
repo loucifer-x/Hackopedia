@@ -1,6 +1,6 @@
 
 ## NOTES
-A lot of priviledge escalation is actually in ```https://gtfobins.org/``` for example using ```base64 /etc/shadow | base64 --decode``` to find password hashes. (john --wordlist=PASSWORDLIST HASH) 
+A lot of priviledge escalation is actually in ```https://gtfobins.org/``` for example using ```base64 /etc/shadow | base64 --decode``` to find password hashes. (john --wordlist=PASSWORDLIST HASH) to decrypt 
 
 you can use **find / -type f -perm -04000 -ls 2>/dev/null** to find applications you have access too and **sudo -l** to find what sudo permissions you have access too.
 

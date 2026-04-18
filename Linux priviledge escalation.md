@@ -1,7 +1,11 @@
 
-## Check list
+## NOTES
+A lot of priviledge escalation is actually in ```https://gtfobins.org/``` for example using ```base64 /etc/shadow | base64 --decode``` to find password hashes. (john --wordlist=PASSWORDLIST HASH) 
 
-- **sudo -l**
+you can use **find / -type f -perm -04000 -ls 2>/dev/null** to find applications you have access too and **sudo -l** to find what sudo permissions you have access too.
+
+
+- **sudo -l** 
 - **find / -type f -perm -04000 -ls 2>/dev/null**
 - **getcap -r / 2>/dev/null**
 - **cat /etc/crontab**

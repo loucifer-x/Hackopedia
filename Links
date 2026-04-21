@@ -10,11 +10,16 @@ _    _            _                      _ _
 ------------------------------------------------------------------------------------------
 LINKS
 ------------------------------------------------------------------------------------------
-https://www.revshells.com/ - tool that generates reverse shell payloads
 https://gtfobins.org/ - privilege escalation
 https://www.exploit-db.com/ - CVE database with downloads
 https://pentestmonkey.net/ - Massice cheatsheet, reverse shells, john, sql injcetion, ect
 
+
+------------------------------------------------------------------------------------------
+RCE
+------------------------------------------------------------------------------------------
+https://www.revshells.com/ - tool that generates reverse shell payloads
+https://raw.githubusercontent.com/pentestmonkey/php-reverse-shell/master/php-reverse-shell.php
 
 ------------------------------------------------------------------------------------------
 Hashes

@@ -34,7 +34,7 @@ After this reconnaissance I found nothing intresting so i decide to look into in
 
 -  Inspect element | N/A
 -  Debugger | N/A
--  NETWORK | GET http://10.129.165.53:5000/api/fetch_layout?layout=theme_classic.html
+-  NETWORK | ```GET http://10.129.165.53:5000/api/fetch_layout?layout=theme_classic.html```
 
 
 

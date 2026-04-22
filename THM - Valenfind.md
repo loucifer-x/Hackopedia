@@ -44,9 +44,20 @@ BINGO!
 
 Might be useful ../../../../etc/issue - Ubuntu 24.04.3 LTS \n \l 
 
+Erorr message exposing the path
+```Error loading theme layout: [Errno 2] No such file or directory: '/opt/Valenfind/templates/components/test'```
+
 So since it's a python server we can try and find the script for the server. XXXXXX.py
 
 It could be ValenFind.py Main.py Website.py App.py
+
+App.py works, it contains ``` ADMIN_API_KEY = "CUPID_MASTER_KEY_2024_XOXO" ```
+
+
+
+
+
+
 
 
 

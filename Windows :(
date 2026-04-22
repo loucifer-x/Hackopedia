@@ -3,3 +3,6 @@ Commands
 ------------------------------------------------------------------------------------------
 Shows powershell command history
   type %userprofile%\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt
+
+List stored credentials
+  cmdkey /list

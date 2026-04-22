@@ -19,7 +19,7 @@ PORT     STATE SERVICE VERSION
 5000/tcp open  http    Werkzeug httpd 3.0.1 (Python 3.12.3)
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
-
+It's a python server!
 
 While creating an account for this website I decided to try adding an alert script in the bio section to check for XSS exploit.
 ```

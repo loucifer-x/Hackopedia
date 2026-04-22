@@ -5,6 +5,7 @@ dir - list directory
 cd - changes directory
 type - Opens file
 
+sc qc [apphostsvc]- 
 
 ------------------------------------------------------------------------------------------
 Windows privilede escalation

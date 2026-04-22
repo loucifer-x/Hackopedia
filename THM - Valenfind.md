@@ -57,6 +57,7 @@ App.py works, it contains
 
 
 **Important snippets**
+
 ``` ADMIN_API_KEY = "CUPID_MASTER_KEY_2024_XOXO" ``` 
 
 ```if auth_header == ADMIN_API_KEY: try: return send_file(DATABASE, as_attachment=True, download_name='valenfind_leak.db')```
@@ -64,6 +65,9 @@ App.py works, it contains
 ```auth_header = request.headers.get('X-Valentine-Token')``` 
 
 ```@app.route('/api/admin/export_db')```
+
+So after checking out ```10.129.165.53:5000/api/admin/export_db```  it gives us a message ```message	"Missing or Invalid Admin Token"``` after setting the **X-Valentine-Token** header too **CUPID_MASTER_KEY_2024_XOXO** it downloads a **SQLITE** file containing all the login details for the website. The password to cupid is **admin_root_x99** after logging in and going onto cupids profile we can FINALLY find the flag. **FLAG: THM{v1be_c0ding_1s_n0t_my_cup_0f_t3a}**
+
 
 
 

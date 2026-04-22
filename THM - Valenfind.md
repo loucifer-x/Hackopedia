@@ -4,13 +4,9 @@
 **There’s this new dating app called “Valenfind” that just popped up out of nowhere. I hear the creator only learned to code this year; surely this must be vibe-coded. Can you exploit it?**
 *The part where it says "I hear the creator only learned to code this year; surely this must be vibe-coded" is very intresting,it could be a hint towards cross site scripting or SLQ injection.* 
 
-*Theres a lot of accounts register to this site on /dashboard. Cupid stands out the most since its a cupid website plus the bio states "I keep the database secrure. No peeking" So I assume this is where the flag is placed.*
 
 
 ## reconnaissance
-```
-sqlmap -u "http://10.129.165.53:5000/login" --method=POST --data="username=cupid&password=test123"
-```
 
 ```
 gobuster dir -w directory-list-2.3-medium.txt -u http://10.129.165.53:5000/
@@ -23,6 +19,9 @@ PORT     STATE SERVICE VERSION
 5000/tcp open  http    Werkzeug httpd 3.0.1 (Python 3.12.3)
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
+```
+sqlmap -u "http://10.129.165.53:5000/login" --method=POST --data="username=cupid&password=test123"
+```
 
 While creating an account for this website I decided to try adding an alert script in the bio section to check for XSS exploit.
 ```
@@ -30,3 +29,4 @@ While creating an account for this website I decided to try adding an alert scri
 ```
 After creating a account I notcied I can view other peoples profiles. I decided to make another account and click on the account I just made to see if the script worked. The script was sanatized.
 
+*Theres a lot of accounts register to this site on /dashboard. Cupid stands out the most since its a cupid website plus the bio states "I keep the database secrure. No peeking" So I assume this is where the flag is placed.*

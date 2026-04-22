@@ -51,8 +51,13 @@ So since it's a python server we can try and find the script for the server. XXX
 
 It could be ValenFind.py Main.py Website.py App.py
 
-App.py works, it contains ``` ADMIN_API_KEY = "CUPID_MASTER_KEY_2024_XOXO" ``` and
+App.py works, it contains 
+
+``` ADMIN_API_KEY = "CUPID_MASTER_KEY_2024_XOXO" ``` 
+
 ```if auth_header == ADMIN_API_KEY: try: return send_file(DATABASE, as_attachment=True, download_name='valenfind_leak.db')```
+
+```auth_header = request.headers.get('X-Valentine-Token')``` 
 
 
 

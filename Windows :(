@@ -6,3 +6,6 @@ Shows powershell command history
 
 List stored credentials
   cmdkey /list
+
+scans all saved PuTTY sessions 
+  reg query HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\ /f "Proxy" /s

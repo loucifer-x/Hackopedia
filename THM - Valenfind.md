@@ -17,3 +17,9 @@ PORT     STATE SERVICE VERSION
 5000/tcp open  http    Werkzeug httpd 3.0.1 (Python 3.12.3)
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
+
+While creating an account for this website I decided to try adding an alert script in the bio section to check for XSS exploit.
+```
+<script>alert("helloworld")</script>
+```
+After creating a account I notcied I can view other peoples profiles. I decided to make another account and click on the account I just made to see if the script worked. The script was sanatized 

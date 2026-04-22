@@ -29,4 +29,4 @@ While creating an account for this website I decided to try adding an alert scri
 ```
 After creating a account I notcied I can view other peoples profiles. I decided to make another account and click on the account I just made to see if the script worked. The script was sanatized.
 
-*Theres a lot of accounts register to this site on /dashboard. Cupid stands out the most since its a cupid website plus the bio states "I keep the database secrure. No peeking" So I assume this is where the flag is placed.*
+*Theres a lot of accounts registered to this site on /dashboard. Cupid stands out the most since its a cupid website plus the bio states "I keep the database secrure. No peeking" So I assume this is where the flag is placed.*

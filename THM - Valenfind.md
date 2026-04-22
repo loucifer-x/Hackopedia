@@ -46,7 +46,7 @@ Might be useful ../../../../etc/issue - Ubuntu 24.04.3 LTS \n \l
 
 So since it's a python server we can try and find the script for the server. XXXXXX.py
 
-It could be ValenFind.py Main.py Website.py
+It could be ValenFind.py Main.py Website.py App.py
 
 
 

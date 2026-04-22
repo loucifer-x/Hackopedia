@@ -7,6 +7,10 @@
 
 ## reconnaissance
 ```
+sqlmap -u "http://10.129.165.53:5000/login" --method=POST --data="username=cupid&password=test123"
+```
+
+```
 gobuster dir -w directory-list-2.3-medium.txt -u http://10.129.165.53:5000/
 login, register, logout, dashboard, my_profile
 ```
@@ -22,4 +26,5 @@ While creating an account for this website I decided to try adding an alert scri
 ```
 <script>alert("helloworld")</script>
 ```
-After creating a account I notcied I can view other peoples profiles. I decided to make another account and click on the account I just made to see if the script worked. The script was sanatized 
+After creating a account I notcied I can view other peoples profiles. I decided to make another account and click on the account I just made to see if the script worked. The script was sanatized.
+

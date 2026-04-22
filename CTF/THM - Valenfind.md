@@ -5,9 +5,6 @@
 *The part where it says "I hear the creator only learned to code this year; surely this must be vibe-coded" is very intresting,it could be a hint towards cross site scripting or SLQ injection.* 
 
 
-
-## reconnaissance
-
 ```
 gobuster dir -w directory-list-2.3-medium.txt -u http://10.129.165.53:5000/
 login, register, logout, dashboard, my_profile

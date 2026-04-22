@@ -36,6 +36,8 @@ After this reconnaissance I found nothing intresting so i decide to look into in
 -  Debugger | N/A
 -  NETWORK | ```GET http://10.129.165.53:5000/api/fetch_layout?layout=theme_classic.html```
 
+Looks like there's a possible LFI exploit! Let's start digging, in my notes in web hacking we can use ```../../../../etc/passwd``` to find directories!
+
 
 
   

@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Commands
+Windows privilede escalation
 ------------------------------------------------------------------------------------------
 Shows powershell command history
   type %userprofile%\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt

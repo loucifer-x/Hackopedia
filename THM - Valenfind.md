@@ -4,7 +4,7 @@
 **There’s this new dating app called “Valenfind” that just popped up out of nowhere. I hear the creator only learned to code this year; surely this must be vibe-coded. Can you exploit it?**
 *The part where it says "I hear the creator only learned to code this year; surely this must be vibe-coded" is very intresting,it could be a hint towards cross site scripting or SLQ injection.* 
 
-*Theres a lot of accounts register to this site on /dashboard. Cupid stands out the most since its a cupid website plus the bio states "I keep the database secrure. No peeking" So I assume this is where the flag is placed.
+*Theres a lot of accounts register to this site on /dashboard. Cupid stands out the most since its a cupid website plus the bio states "I keep the database secrure. No peeking" So I assume this is where the flag is placed.*
 
 
 ## reconnaissance

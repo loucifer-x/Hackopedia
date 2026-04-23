@@ -1,1 +1,15 @@
+https://quipqiup.com/
 
+
+gpg privacy guard
+gpg --output [OUTPUT.txt] --decrypt [file.gpg]
+--armor 
+--symmetric
+
+
+OpenSSL
+openssl [CIPHER]-in [INPUT.TXT] -out [OUTPUT.TXT]
+-e | encrypt
+-d | decrypt
+
+Ciphers - aes-256-cbc, AES-256-GCM, ChaCha20-Poly1305

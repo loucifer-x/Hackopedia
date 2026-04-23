@@ -17,3 +17,4 @@ OpenSSL
 
   penssl pkeyutl -decrypt -in [CIPHER.TXT] -inkey [PRIVATE KEY.pem] -out [OUTPUT.TXT]
   openssl rsa -in [PRIVATE KEY].pem -text -noout
+  openssl dhparam -out dhparams.pem 2048

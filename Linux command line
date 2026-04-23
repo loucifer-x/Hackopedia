@@ -20,6 +20,10 @@ Search & Text Processing
 find — Searches for files and directories | find [location "/ ] -type [f] -name[file name] [hides permission errors "2>/dev/null"]
 grep — Searches text inside files
 ------------------------------------------------------------------------------------------
+HASH
+------------------------------------------------------------------------------------------
+sha256sum [FILE] 
+------------------------------------------------------------------------------------------
 File Editing
 ------------------------------------------------------------------------------------------
 nano — Opens a simple terminal-based text editor

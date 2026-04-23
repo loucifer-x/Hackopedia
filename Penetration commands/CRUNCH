@@ -6,4 +6,4 @@ crunch <min> <max> [charset] [options]
 
 
 Pattern [-t] @ = letter % = number
-    Pattern@% -> PatternZ1
+    Pattern@% -> Patternz1

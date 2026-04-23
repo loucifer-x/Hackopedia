@@ -6,10 +6,14 @@ gpg --output [OUTPUT.txt] --decrypt [file.gpg]
 --armor 
 --symmetric
 
-
+s!kR3T55
 OpenSSL
-openssl [CIPHER]-in [INPUT.TXT] -out [OUTPUT.TXT]
--e | encrypt
--d | decrypt
+  openssl [CIPHER] -in [INPUT.TXT] -out [OUTPUT.TXT]
+  -e | encrypt
+  -d | decrypt
+  -iter [number] | 
+  -pbkdf2 | password based encyption
+  
+  Ciphers - aes-256-cbc, AES-256-GCM, ChaCha20-Poly1305
 
-Ciphers - aes-256-cbc, AES-256-GCM, ChaCha20-Poly1305
+  penssl pkeyutl -decrypt -in ciphertext_message.txt -inkey private-key-bob.pem -out test.txt

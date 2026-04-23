@@ -9,6 +9,7 @@ _    _            _                      _ _
 
 
 
+https://github.com/tomnomnom/waybackurls
 https://archive.org/web/ 
 ------------------------------------------------------------------------------------------
 LINKS
@@ -18,8 +19,6 @@ https://www.exploit-db.com/ - CVE database with downloads
 https://pentestmonkey.net/ - Massice cheatsheet, reverse shells, john, sql injcetion, ect
 https://en.wikipedia.org/wiki/List_of_file_signatures - HEX file signatures
 https://www.shodan.io/ - search engine for Internet-connected devices
-
-
 
 ------------------------------------------------------------------------------------------
 RCE

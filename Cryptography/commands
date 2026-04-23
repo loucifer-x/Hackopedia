@@ -16,4 +16,5 @@ OpenSSL
   
   Ciphers - aes-256-cbc, AES-256-GCM, ChaCha20-Poly1305
 
-  penssl pkeyutl -decrypt -in ciphertext_message.txt -inkey private-key-bob.pem -out test.txt
+  penssl pkeyutl -decrypt -in [CIPHER.TXT] -inkey [PRIVATE KEY.pem] -out [OUTPUT.TXT]
+  openssl rsa -in [PRIVATE KEY].pem -text -noout

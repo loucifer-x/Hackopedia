@@ -1,1 +1,9 @@
 Crunch - a wordlist generator.
+
+crunch <min> <max> [charset] [options]
+
+-o output.txx
+
+
+Pattern [-t] @ = letter % = number
+    Pattern@% -> PatternZ1

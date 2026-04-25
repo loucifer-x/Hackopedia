@@ -144,8 +144,16 @@ This exploit occurs when user inputs are not properly validated or sanitized.
   * search bar
   * form fields
 
-
 Side Note:
 _SQLMap is a powerful penetration  tool used for detecting and exploiting sql vulnerabilities in web applications._
+
+
+
+
+
+## Json Web Token Security 
+We can use ```https://www.jwt.io/``` to decode tokens
+
+
 
 

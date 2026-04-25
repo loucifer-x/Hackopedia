@@ -1,4 +1,4 @@
-
+Curl
 
 
 -i 
@@ -6,3 +6,10 @@
 -h 'Content-Type: [TYPE ECT application/json] | HEADER
 -x [GET, POST] | HTTP METHOD
 -d '{ "username" : "user", "password" : "password1" }'| data payload
+
+
+Authentication (Obtaining the Token)
+curl -H 'Content-Type: application/json' -X POST -d '{ "username" : "user", "password" : "password1" }' [URL]
+
+Authorization (Using the Token)
+curl -H 'Authorization: Bearer [JWT token]' [URL]?username=Y

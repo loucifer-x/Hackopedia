@@ -154,6 +154,19 @@ _SQLMap is a powerful penetration  tool used for detecting and exploiting sql vu
 ## Json Web Token Security 
 We can use ```https://www.jwt.io/``` to decode tokens
 
+**Authentication (Obtaining the Token)**
+
+```curl -H 'Content-Type: application/json' -X POST -d '{ "username" : "user", "password" : "password1" }' [URL]
+```
+**Authorization (Using the Token)**
+
+```curl -H 'Authorization: Bearer [JWT token]' [URL]?username=Y
+```
+
+
+
+
+
 
 
 

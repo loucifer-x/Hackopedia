@@ -162,7 +162,7 @@ We can use ```https://www.jwt.io/``` to decode tokens
 
 ```curl -H 'Authorization: Bearer [JWT token]' [URL]?username=Y```
 
-
+ header -> payload -> sigunature
 
 
 

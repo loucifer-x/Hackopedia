@@ -1,4 +1,4 @@
-## OTP Token Brute Forcer
+## OTP Token Brute Forcer - **Courtesy of Claude Code**
 
 - OTP/Token brute forcer — guessing a one-time code
 - Rate limit bypass — using `X-Forwarded-For` to evade restrictions
@@ -16,7 +16,6 @@ against real targets*
 - Automatic success detection based on server response
 
 
-**Courtesy of Claude**
 
 ```
 import requests

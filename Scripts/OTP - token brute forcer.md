@@ -16,6 +16,8 @@ against real targets*
 - Automatic success detection based on server response
 
 
+**Courtesy of Claude**
+
 ```
 import requests
 import threading

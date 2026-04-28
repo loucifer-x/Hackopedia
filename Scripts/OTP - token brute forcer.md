@@ -7,7 +7,7 @@
 common web application vulnerabilities including OTP brute forcing, rate limit bypass 
 via `X-Forwarded-For` header spoofing, and session-based authentication attacks. 
 Built for educational purposes on intentionally vulnerable machines. Do not use 
-against real targets.*against real targets.*
+against real targets*
 
 
 ```

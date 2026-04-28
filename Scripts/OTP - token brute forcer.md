@@ -1,3 +1,15 @@
+## OTP Token Brute Forcer
+
+- OTP/Token brute forcer — guessing a one-time code
+- Rate limit bypass — using `X-Forwarded-For` to evade restrictions
+
+*A Python script built for the TryHackMe "Hammer" CTF challenge. It demonstrates 
+common web application vulnerabilities including OTP brute forcing, rate limit bypass 
+via `X-Forwarded-For` header spoofing, and session-based authentication attacks. 
+Built for educational purposes on intentionally vulnerable machines. Do not use 
+against real targets.*against real targets.*
+
+
 ```
 import requests
 import threading

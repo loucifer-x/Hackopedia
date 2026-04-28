@@ -14,7 +14,8 @@ Common/Default SQL database ports
 *  PostgreSQL 5432
 *  Microsoft SQL Server (MSSQL) 1433 or 1434
 *  Oracle Database 1521
-*  
+
+
 ## Filter Evasion Techniques
 
 *  **URL Encoding** - Common encoding method where characters are represetned using **%** followed by their ASCII value. ```' OR 1=1--``` -> ```%27%20OR%201%3D1--```

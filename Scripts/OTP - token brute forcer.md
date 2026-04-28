@@ -9,6 +9,12 @@ via `X-Forwarded-For` header spoofing, and session-based authentication attacks.
 Built for educational purposes on intentionally vulnerable machines. Do not use 
 against real targets*
 
+## Features
+- Multithreaded for faster processing (100 concurrent threads)
+- `X-Forwarded-For` header spoofing to bypass IP rate limiting
+- Shared session handling to preserve OTP cookies
+- Automatic success detection based on server response
+
 
 ```
 import requests

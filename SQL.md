@@ -6,6 +6,7 @@ SHOW TABLES;
 **Notes**
 
 Anything after -- on the same line is ignored by the database.
+
 ```https://gchq.github.io/CyberChef/``` to encode URLS
 
 

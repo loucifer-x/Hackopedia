@@ -15,6 +15,12 @@ Common/Default SQL database ports
 *  Microsoft SQL Server (MSSQL) 1433 or 1434
 *  Oracle Database 1521
 
+SQL tools
+*  SQLMAP
+*  SQLNINJA
+*  JSQL INJECTION
+*  BBQSQL
+
 
 ## Filter Evasion Techniques
 

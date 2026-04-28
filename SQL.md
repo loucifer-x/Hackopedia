@@ -10,7 +10,7 @@ Anything after -- on the same line is ignored by the database.
 ```https://gchq.github.io/CyberChef/``` to encode URLS
 
 
-**Filter Evasion Techniques**
+## Filter Evasion Techniques
 
 *  **URL Encoding** - Common encoding method where characters are represetned using **%** followed by their ASCII value. ```' OR 1=1--``` -> ```%27%20OR%201%3D1--```
 
@@ -19,7 +19,7 @@ Anything after -- on the same line is ignored by the database.
 *  **Unicode Encoding** -  ```admin``` -> ```\u0061\u0064\u006d\u0069\u006e``` Bypass filters that only check for specific ASCII characters.
 
 
-**Out of band injection**
+## Out of band injection
 Sends SQL messages to a external source, for a example a python server.
 
 Internal:

@@ -1,3 +1,8 @@
+## MongoDB Brute Force Injetor
+
+
+
+**Courtesy of Claude Code**
 ```
 import requests
 import string

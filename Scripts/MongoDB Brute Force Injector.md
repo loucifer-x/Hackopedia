@@ -8,7 +8,7 @@ Built for educational use on intentionally vulnerable systems (e.g., CTFs, labs)
 ## Features
 *    Automated password length discovery
 *    Character by character extraction
-
+*    Response based oracle detection
 **Courtesy of Claude Code**
 ```
 import requests

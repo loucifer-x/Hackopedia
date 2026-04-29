@@ -64,7 +64,7 @@ def find_password(session, length):
 
 
 session  = requests.Session()
-```
 length   = find_length(session)
 password = find_password(session, length)
 print(f"\n[✓] Password: {password}")i
+```

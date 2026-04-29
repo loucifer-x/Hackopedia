@@ -1,11 +1,13 @@
 ## MongoDB Brute Force Injetor
+- NoSQL injection (MongoDB) — exploits $regex query behavior to test password patterns
+- Blind extraction attack — reconstructs credentials character-by-character using a response oracle
 
-
+*A Python script designed for CTF challenges that demonstrates MongoDB NoSQL injection via regex-based blind extraction. It automates password discovery by leveraging application responses as a success/failure oracle, allowing full credential recovery without direct data disclosure.
+Built for educational use on intentionally vulnerable systems (e.g., CTFs, labs). Do not use against real targets.*
 
 ## Features
-*    NoSQL injection (MongoDB) — exploits $regex query behavior to test password patterns
-*    Blind extraction attack — reconstructs credentials character-by-character using a response oracle
-
+*    Automated password length discovery
+*    Character by character extraction
 
 **Courtesy of Claude Code**
 ```

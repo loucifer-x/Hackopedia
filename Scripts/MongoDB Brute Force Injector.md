@@ -1,4 +1,4 @@
-## MongoDB Brute Force Injetor
+## MongoDB Brute Force Injector
 - NoSQL injection (MongoDB) — exploits $regex query behavior to test password patterns
 - Blind extraction attack — reconstructs credentials character-by-character using a response oracle
 

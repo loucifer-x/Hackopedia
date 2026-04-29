@@ -6,8 +6,8 @@ Apache, CouchDB, Couchbase, Amazon DocumentDB may be susceptible to NoSql inject
 * $nin (not in) - Matches values not in a given list
 * $ne (not equal) - Matches values not equal to a value
 * [$regex] - Matches values based on a pattern (regular expression)
-*     [$regex]=^.{7}$ - Matches values that are exactly 7 characters long
-*     ^a......$ - Matches values that start with “a” and are exactly 7 characters long
+    * [$regex]=^.{7}$ - Matches values that are exactly 7 characters long
+    * ^a......$ - Matches values that start with “a” and are exactly 7 characters long
 
 **different payloads** *PUT REQUEST*
 -  ```username[$ne]=user123&password[$ne]=pass123``` - *Matches any user whose username is NOT "user123" AND password is NOT "pass123".3*

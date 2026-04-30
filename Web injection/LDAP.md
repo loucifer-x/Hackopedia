@@ -4,9 +4,10 @@
 **Functions**
 
 [*] Always fecthes first query in the list.
+
 [x*] Searches first uid that starts with x
 
-- Examples:
+**Examples:**
 
 -    LOGIN: x*
 -    PASSWORD: *

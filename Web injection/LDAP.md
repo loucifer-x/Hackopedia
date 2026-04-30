@@ -14,7 +14,7 @@
 -    ```LOGIN: x*)(|(&    PASSWORD: pwd)```     
 
 
-TryHackMe brute force LDAP script
+**TryHackMe brute force LDAP script**
 
 ```
 import requests

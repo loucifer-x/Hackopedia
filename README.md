@@ -16,7 +16,7 @@ This repository serves as both a learning diary and a reference guide, documenti
 * __Penetration commands__  
 * __Capture the flag__
 * __Scripts__
-* __Injection__ 
+* __Web Based Injection__ 
 
 Disclaimer
 -

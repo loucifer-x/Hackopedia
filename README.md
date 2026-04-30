@@ -12,15 +12,11 @@ This repository serves as both a learning diary and a reference guide, documenti
 * __Terminology__
 * __Linux command line__
 * __Useful links__
-* __Web hacking__
-*   *RCE, XXS, LFI*
-* __Penetration commands__
-*  *Crunch, Curl, Gobuster, Hydra, Metasploit, NMAP, SQLMAP*
+* __Web hacking__ 
+* __Penetration commands__  
 * __Capture the flag__
 * __Scripts__
-* __Injection__
-*   *No SQL, SQL, XXE*
-
+* __Injection__ 
 
 Disclaimer
 -

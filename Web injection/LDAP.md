@@ -3,4 +3,4 @@
 
 **Functions**
 
-* * Always fecthes first query in the list.
+[*] Always fecthes first query in the list.

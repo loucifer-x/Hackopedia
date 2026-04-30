@@ -6,14 +6,13 @@
 [*] Always fecthes first query in the list.
 [x*] Searches first uid that starts with x
 
-Examples:
+- Examples:
 
-LOGIN: x*           
+-    LOGIN: x*
+-    PASSWORD: *
 
-PASSWORD: *        
-
-LOGIN: x*)(|(&          
-PASSWORD: pwd)     
+-    LOGIN: x*)(|(&
+-    PASSWORD: pwd)     
 
 
 TryHackMe brute force LDAP script

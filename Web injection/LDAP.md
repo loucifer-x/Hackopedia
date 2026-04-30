@@ -9,11 +9,9 @@
 
 **Examples:**
 
--    LOGIN: x*
--    PASSWORD: *
+-    LOGIN: x*        PASSWORD: *
 
--    LOGIN: x*)(|(&
--    PASSWORD: pwd)     
+-    LOGIN: x*)(|(&    PASSWORD: pwd)     
 
 
 TryHackMe brute force LDAP script

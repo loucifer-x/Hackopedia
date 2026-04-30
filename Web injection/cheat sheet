@@ -27,3 +27,7 @@ username=user123&password[$regex]=^a......$
 
 SQL
 ' OR 1=1--
+1' OR '1'='1
+
+ORM
+1*

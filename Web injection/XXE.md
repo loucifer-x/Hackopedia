@@ -22,10 +22,10 @@ Example:
 ```
 
 
-**XXE OUT OF BAND**
+## XXE OUT OF BAND
 
 
 
 
-**SSRF + XXE**
+## SSRF + XXE
 

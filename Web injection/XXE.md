@@ -10,6 +10,7 @@ XML -  **Extensible Markup Language**  is typically used by applications to stor
 In-band refers to an vulnerability where the attacker **CAN** see the response from the server.
 
 Example(using burp sutie):
+*Works for text inputs*
 ```
 <!DOCTYPE foo [
 <!ELEMENT foo ANY >
@@ -26,6 +27,7 @@ If the server is vulnerable it executes the **xxe** entity
 In-band refers to an vulnerability where the attacker **CAN'T** see the response from the server.
 
 Example(using burp sutie):
+*Works for file uploads*
 ```
 <!DOCTYPE foo [
 <!ELEMENT foo ANY >

@@ -21,8 +21,12 @@ FOOD
 -  __Filter by type__  -  SELECT * FROM FOOD WHERE TYPE = 'Meat';
 -  __Delete a row__  -  DELETE FROM FOOD WHERE NAME = 'Tuna';
 
-**Notes**
+(*) -> wildcard selector (all fields / columns)
+(;) -> statement terminator
 
+
+**Notes**
+Updating a bictim query input:random;UPDATE FOOD SET COLOUR = 'Light Brown' WHERE NAME = 'Bread';
 Anything after -- on the same line is ignored by the database.
 
 ```https://gchq.github.io/CyberChef/``` to encode URLS

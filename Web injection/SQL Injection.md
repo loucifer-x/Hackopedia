@@ -1,7 +1,7 @@
 **Commands**
 
 SHOW TABLES;
-| FOOD      |           |        | KITCHEN TOOLS |             |        |
+| FOOD      |            |        | KITCHEN TOOLS |             |        |
 |:----------|:----------:|-------:|:--------------|:-----------:|-------:|
 | Name      | Type       | Colour | Tool Name     | Tool Type   | Colour |
 |:----------|:----------:|-------:|:--------------|:-----------:|-------:|

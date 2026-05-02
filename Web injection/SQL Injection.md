@@ -4,8 +4,8 @@ SHOW TABLES;
 
 FOOD
 | Name     | Type      | Colour |
-|:---------|:---------:|-------:| View all data  -  SELECT * FROM FOOD;
-| Bread    | Carbs     | Brown  | Select specific columns  -  SELECT NAME, TYPE FROM FOOD;
+|:---------|:---------:|-------:| 
+| Bread    | Carbs     | Brown  |
 | Rice     | Carbs     | White  |
 | Chicken  | Meat      | White  |
 | Beef     | Meat      | Red    |

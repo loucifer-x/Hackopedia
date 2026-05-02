@@ -1,21 +1,21 @@
 **Commands**
 
 SHOW TABLES;
-+-------------------------------------------+
-|                  FOOD                     |
-+-------------+-------------+---------------+
-| NAME        | TYPE        | COLOUR        |
-+-------------+-------------+---------------+
-| Bread       | Carbs       | Brown         |
-| Rice        | Carbs       | White         |
-| Chicken     | Meat        | White         |
-| Beef        | Meat        | Red           |
-| Salmon      | Fish        | Pink          |
-| Tuna        | Fish        | Red           |
-| Broccoli    | Vegetable   | Green         |
-| Apple       | Fruit       | Red           |
-| Milk        | Dairy       | White         |
-+-------------+-------------+---------------+
+
+-            FOOD
+------------------------------------
+NAME       | TYPE       | COLOUR
+-------------------------------------
+Bread      | Carbs      | Brown
+Rice       | Carbs      | White
+Chicken    | Meat       | White
+Beef       | Meat       | Red
+Salmon     | Fish       | Pink
+Tuna       | Fish       | Red
+Broccoli   | Vegetable  | Green
+Apple      | Fruit      | Red
+Milk       | Dairy      | White
+
 -- View all data
 SELECT * FROM FOOD;
 

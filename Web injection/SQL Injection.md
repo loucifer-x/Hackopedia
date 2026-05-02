@@ -4,7 +4,7 @@ SHOW TABLES;
 
 -            FOOD
 NAME       | TYPE       | COLOUR
-
+-------------------------------------
 Bread      | Carbs      | Brown
 Rice       | Carbs      | White
 Chicken    | Meat       | White

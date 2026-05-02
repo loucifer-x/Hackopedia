@@ -2,7 +2,7 @@
 
 SHOW TABLES;
 
-         FOOD
+FOOD
 | Name     | Type      | Colour |
 |:---------|:---------:|-------:|
 | Bread    | Carbs     | Brown  |

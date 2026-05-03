@@ -1,4 +1,5 @@
 ## Object-relational mapping 
+Exploits/Injections based on ORM frameworks.
 
 **Commonly Used Frameworks**
 

@@ -12,5 +12,5 @@
 *  1'
 *  1' OR '1'='1
 
-*  http://website?=**name->"')) LIMIT 10#** _>url encode>_ http://website?=**name-%3E%22'))%20LIMIT%2010#**
+*  website?=**name->"')) LIMIT 10#** _>url encode>_ website?=**name-%3E%22'))%20LIMIT%2010#**
 

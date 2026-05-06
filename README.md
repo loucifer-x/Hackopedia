@@ -14,7 +14,6 @@ This repository serves as both a learning diary and a reference guide, documenti
 * __Useful links__
 * __Web hacking__ 
 * __Penetration commands__  
-* __Capture the flag__
 * __Scripts__
 * __Web Injection__ 
 

@@ -14,7 +14,7 @@
 
 *Based on Vite app tryhackme challenge*
 
-Java code found in debugger bays.vue
+Java code found in debugger bdays.vue
 ```
  removeBday(bdayID) {
       var secret = localStorage.getItem('secret');

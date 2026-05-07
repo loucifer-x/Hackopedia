@@ -10,11 +10,6 @@
 * setTimeout(string)
 * v-html (Vue)
 
-<ins>**FINDING A VULNERABLE INPUT**</ins>
-
-
-
-
 <ins>**EXAMPLE**</ins>
 
 *Based on Vite app tryhackme challenge*

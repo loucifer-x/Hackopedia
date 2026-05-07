@@ -1,6 +1,6 @@
 ## Document object model
 
-*  Possible vulnerable input 
+<ins>**Possible vulnerable input**</ins>
 *  innerHTML
 *  outerHTML
 *  document.write()

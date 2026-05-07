@@ -1,6 +1,6 @@
 ## Document object model
 
-<ins>**Finding a vuluenble input**</ins>
+<ins>**FINDING A VULENABLE INPUT**</ins>
 
 
 

@@ -15,6 +15,7 @@
 
 
 <ins>**EXAMPLE**</ins>
+
 *Based on Vite app tryhackme challenge*
 
 ```

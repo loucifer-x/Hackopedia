@@ -1,13 +1,14 @@
 ## Document object model
 
-<ins>**Possible vulnerable input**</ins>
-*  innerHTML
-*  outerHTML
-*  document.write()
-*  insertAdjacentHTML()
-*  eval() / Function()
-*  location, location.hash, location.search
-*  v-html
+<ins>**Sinks** (**dangerous execution points**)</ins>
+* innerHTML
+* outerHTML
+* insertAdjacentHTML
+* document.write
+* eval
+* Function
+* setTimeout(string)
+* v-html (Vue)
 
 <ins>**FINDING A VULNERABLE INPUT**</ins>
 

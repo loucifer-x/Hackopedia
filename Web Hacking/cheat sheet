@@ -1,5 +1,5 @@
 XSS PAYLOADS
-<img src=x onerror="{xss_PAYLOAD}">
+<img src=x onerror="xss_PAYLOAD">
 
 
 INJECTIONS

@@ -1,3 +1,9 @@
+XSS PAYLOADS
+<img src=x onerror="{xss_PAYLOAD}">
+
+
+INJECTIONS
+
 php - Smarty
 {'Hello'|upper}
 {system("ls")}

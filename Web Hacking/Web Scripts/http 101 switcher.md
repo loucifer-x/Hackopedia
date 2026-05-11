@@ -1,3 +1,5 @@
+Minimal Python server that returns **HTTP 101** Switching Protocols responses to GET requests.
+
 Usaged:
    
     -python3 script.py [port]

@@ -1,4 +1,4 @@
-
+JavaScript payload that sends an authenticated password-reset request from the victim’s browser session.
 
 
 

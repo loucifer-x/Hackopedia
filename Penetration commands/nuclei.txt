@@ -1,0 +1,3 @@
+automate the discovery of security flaws, misconfigurations, and exposed services across networks, cloud infrastructure, and web applications.
+
+nuclei -u [WEBSITE]

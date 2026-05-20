@@ -4,6 +4,7 @@ A lot of priviledge escalation is actually in ```https://gtfobins.org/``` for ex
 
 you can use **find / -type f -perm -04000 -ls 2>/dev/null** to find applications you have access too and **sudo -l** to find what sudo permissions you have access too.
 
+wget https://github.com/DominicBreuker/pspy/releases/latest/download/pspy64
 
 - **sudo -l** 
 - **find / -type f -perm -04000 -ls 2>/dev/null**

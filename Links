@@ -9,17 +9,23 @@ _    _            _                      _ _
 
 
 
+wget https://github.com/DominicBreuker/pspy/releases/latest/download/pspy64
+
 https://github.com/tomnomnom/waybackurls
 https://archive.org/web/ 
 ------------------------------------------------------------------------------------------
 LINKS
 ------------------------------------------------------------------------------------------
-https://gtfobins.org/ - privilege escalation
 https://www.exploit-db.com/ - CVE database with downloads
 https://pentestmonkey.net/ - Massice cheatsheet, reverse shells, john, sql injcetion, ect
 https://en.wikipedia.org/wiki/List_of_file_signatures - HEX file signatures
 https://www.shodan.io/ - search engine for Internet-connected devices
 
+------------------------------------------------------------------------------------------
+privilege escalation
+------------------------------------------------------------------------------------------
+https://gtfobins.org/ 
+wget https://github.com/DominicBreuker/pspy/releases/latest/download/pspy64
 
 ------------------------------------------------------------------------------------------
 Decode/Encode + Hashes

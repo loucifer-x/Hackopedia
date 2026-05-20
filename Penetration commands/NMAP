@@ -1,6 +1,9 @@
 nmap - is a tool used to discover, scan, and analyze networks and systems.
 
 
+
+nmap -sS -sC -append-output -A x.x.x.x.x 
+
 Example use | nmap -v -sS -p x-x x.x.x.x
  
 MAIN ONES TO USE

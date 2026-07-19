@@ -16,7 +16,8 @@ you can use **find / -type f -perm -04000 -ls 2>/dev/null** to find applications
 
 ```wget https://github.com/DominicBreuker/pspy/releases/latest/download/pspy64```
 
-- **sudo -l** 
+- **sudo -l**
+- **find / -group USER -type f 2>dev/null**
 - **find / -type f -perm -04000 -ls 2>/dev/null**
 - **getcap -r / 2>/dev/null**
 - **cat /etc/crontab**
